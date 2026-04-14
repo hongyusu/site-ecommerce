@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "ecommerce-backend"
+version = "0.1.0"
+description = "E-commerce platform backend with FastAPI"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.109.0"
+uvicorn = {extras = ["standard"], version = "^0.27.0"}
+sqlalchemy = "^2.0.25"
+alembic = "^1.13.1"
+psycopg2-binary = "^2.9.9"
+pydantic = "^2.5.3"
+pydantic-settings = "^2.1.0"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+bcrypt = "4.1.2"
+python-multipart = "^0.0.6"
+redis = "^5.0.1"
+celery = "^5.3.6"
+faker = "^22.5.1"
+email-validator = "^2.1.0"
+aiofiles = "^23.2.1"
+resend = "^2.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.4"
+pytest-asyncio = "^0.23.3"
+httpx = "^0.26.0"
+mypy = "^1.8.0"
+ruff = "^0.1.14"
+black = "^24.1.1"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+select = ["D", "F", "E"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,839 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "search": "搜索",
+    "searchPlaceholder": "搜索商品...",
+    "cart": "购物车",
+    "account": "账户",
+    "login": "登录",
+    "logout": "退出",
+    "register": "注册",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "remove": "移除",
+    "yes": "是",
+    "no": "否",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "close": "关闭",
+    "viewAll": "查看全部",
+    "learnMore": "了解更多",
+    "price": "价格",
+    "quantity": "数量",
+    "total": "总计",
+    "subtotal": "小计",
+    "hello": "你好",
+    "loginRequired": "请登录"
+  },
+  "serviceBar": {
+    "fastDelivery": {
+      "title": "快速配送",
+      "subtitle": "1-3天送达"
+    },
+    "securePayment": {
+      "title": "安全支付",
+      "subtitle": "多种支付方式"
+    },
+    "returns": {
+      "title": "14天退货政策",
+      "subtitle": "免费退货"
+    },
+    "customerService": {
+      "title": "客户服务",
+      "subtitle": "每周7天服务"
+    }
+  },
+  "deliveryInfo": {
+    "stock": {
+      "inStock": "有货",
+      "outOfStock": "缺货",
+      "fastDelivery": "快速配送",
+      "availableLater": "稍后有货"
+    },
+    "delivery": {
+      "title": "配送时间"
+    },
+    "warranty": {
+      "title": "质保",
+      "year": "年",
+      "years": "年",
+      "months": "个月"
+    },
+    "returnPolicy": {
+      "title": "退货政策",
+      "subtitle": "14天退货政策"
+    }
+  },
+  "nav": {
+    "home": "首页",
+    "products": "商品",
+    "categories": "分类",
+    "deals": "优惠",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "viewAll": "查看全部",
+    "viewAllCategories": "查看所有分类",
+    "trackOrder": "追踪订单",
+    "adminPanel": "管理后台",
+    "myOrders": "我的订单"
+  },
+  "home": {
+    "hero": {
+      "title": "欢迎来到 Mall & More",
+      "subtitle": "优质商品 · 快速配送 · 最优价格",
+      "browseProducts": "浏览商品",
+      "viewCategories": "商品分类"
+    },
+    "deals": {
+      "title": "限时优惠",
+      "viewAll": "查看全部"
+    },
+    "featured": {
+      "title": "精选商品",
+      "viewAll": "查看全部"
+    },
+    "systemStatus": {
+      "title": "系统状态",
+      "backendApi": "后端接口",
+      "healthy": "正常",
+      "disconnected": "断开连接"
+    },
+    "popularCategories": "热门分类",
+    "viewAllCategories": "查看所有分类"
+  },
+  "products": {
+    "title": "全部商品",
+    "loading": "加载商品中...",
+    "noProducts": "暂无商品",
+    "searchResults": "搜索结果：",
+    "filteredByCategory": "按分类筛选",
+    "sortBy": "排序：",
+    "sortOptions": {
+      "popular": "最受欢迎",
+      "priceLowToHigh": "价格从低到高",
+      "priceHighToLow": "价格从高到低",
+      "newest": "最新上架"
+    },
+    "deal": "优惠",
+    "featured": "精选",
+    "outOfStock": "缺货",
+    "inStock": "有货（{count}件）",
+    "addToCart": "加入购物车",
+    "addToWishlist": "加入收藏",
+    "savePercent": "节省{percent}%",
+    "notFound": "商品未找到",
+    "failedToLoad": "加载商品失败",
+    "searchPlaceholder": "按名称、品牌或分类搜索...",
+    "search": "搜索"
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "home": "首页",
+      "products": "商品"
+    },
+    "loading": "加载商品中...",
+    "quantity": "数量",
+    "specifications": "规格参数",
+    "description": "商品描述",
+    "noImageAvailable": "暂无图片",
+    "brand": "品牌",
+    "recentlyViewed": "最近浏览",
+    "onlyLeft": "仅剩{count}件"
+  },
+  "categories": {
+    "title": "商品分类",
+    "loading": "加载分类中...",
+    "noCategories": "暂无分类",
+    "failedToLoad": "加载分类失败",
+    "subcategories": "{count}个子分类",
+    "products": "{count}个商品"
+  },
+  "auth": {
+    "login": {
+      "title": "登录",
+      "email": "邮箱",
+      "password": "密码",
+      "submit": "登录",
+      "noAccount": "没有账户？",
+      "registerLink": "注册新账户",
+      "forgotPassword": "忘记密码？"
+    },
+    "register": {
+      "title": "创建账户",
+      "name": "姓名",
+      "email": "邮箱",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submit": "注册",
+      "hasAccount": "已有账户？",
+      "loginLink": "登录"
+    }
+  },
+  "footer": {
+    "brandName": "Mall & More",
+    "tagline": "优质商品 · 快速配送 · 有竞争力的价格",
+    "customerService": "客户服务",
+    "contact": "联系我们",
+    "shipping": "配送信息",
+    "returns": "退换货",
+    "faq": "常见问题",
+    "company": "公司信息",
+    "about": "关于我们",
+    "careers": "招聘信息",
+    "press": "新闻中心",
+    "legal": "法律信息",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "cookies": "Cookie政策",
+    "copyright": "© {year} Mall & More. 保留所有权利。",
+    "paymentMethods": "支付方式："
+  },
+  "pagination": {
+    "previous": "上一页",
+    "next": "下一页",
+    "page": "第{current}页，共{total}页"
+  },
+  "errors": {
+    "generic": "出了点问题",
+    "notFound": "页面未找到",
+    "unauthorized": "未授权",
+    "serverError": "服务器错误"
+  },
+  "pages": {
+    "contact": {
+      "title": "联系我们",
+      "subtitle": "与我们取得联系",
+      "phone": {
+        "title": "电话服务",
+        "number": "+358 20 123 4567",
+        "hours": "周一至周五 9-17，周六 10-15"
+      },
+      "email": {
+        "title": "电子邮件",
+        "address": "customerservice@mallandmore.fi",
+        "responseTime": "24小时内回复"
+      },
+      "address": {
+        "title": "地址",
+        "company": "Mall & More有限公司",
+        "street": "购物街1号",
+        "city": "00100 赫尔辛基"
+      },
+      "hours": {
+        "title": "营业时间",
+        "weekdays": "周一至周五：9:00 - 20:00",
+        "saturday": "周六：10:00 - 18:00",
+        "sunday": "周日：12:00 - 18:00"
+      },
+      "form": {
+        "title": "发送消息",
+        "name": "姓名",
+        "email": "邮箱",
+        "subject": "主题",
+        "message": "消息内容",
+        "required": "*",
+        "submit": "发送消息"
+      }
+    },
+    "shipping": {
+      "title": "配送信息",
+      "express": {
+        "title": "快递配送",
+        "description": "下一个工作日送达。订单需在下午2点前下单。",
+        "price": "9.90 € - 14.90 €"
+      },
+      "home": {
+        "title": "送货上门",
+        "description": "1-3个工作日内送达。可选择配送时间。",
+        "price": "5.90 €"
+      },
+      "pickup": {
+        "title": "自提柜取货",
+        "description": "2-4个工作日内可在最近的自提柜取货。",
+        "price": "3.90 €"
+      },
+      "free": {
+        "title": "免运费",
+        "description": "100€以上订单免费配送至自提柜。",
+        "price": "0 €（100€以上订单）"
+      },
+      "times": {
+        "title": "配送时间",
+        "inStock": "现货商品：1-3个工作日",
+        "order": "定制商品：5-10个工作日",
+        "special": "特殊商品：另行约定"
+      },
+      "tracking": {
+        "title": "订单追踪",
+        "description": "订单发货后，您将收到一封包含追踪码的邮件，可实时查看物流状态。"
+      },
+      "areas": {
+        "title": "配送区域",
+        "description": "我们在全芬兰范围内配送。以下区域可能有特殊条件：",
+        "ahvenanmaa": "奥兰群岛：附加费15€",
+        "archipelago": "群岛地区：单独安排配送",
+        "large": "大件商品：单独安排配送"
+      }
+    },
+    "returns": {
+      "title": "退换货",
+      "policy": {
+        "title": "14天退货权",
+        "description": "您有权在收到商品后14天内无理由退货。商品必须未使用且保持原包装。"
+      },
+      "howTo": {
+        "title": "如何退货",
+        "step1": {
+          "title": "通知退货",
+          "description": "发送邮件至returns@mallandmore.fi或致电客服，提供订单号和退货商品信息。"
+        },
+        "step2": {
+          "title": "仔细包装",
+          "description": "将商品放入原包装或类似保护包装中，附上购买凭证或订单确认。"
+        },
+        "step3": {
+          "title": "寄送包裹",
+          "description": "将包裹送至最近的邮局或自提柜。保留寄送凭证作为退货证明。"
+        },
+        "step4": {
+          "title": "获得退款",
+          "description": "我们将在3-5个工作日内处理退货。退款将退回原支付账户。"
+        }
+      },
+      "address": {
+        "title": "退货地址",
+        "company": "Mall & More有限公司",
+        "department": "退货部",
+        "poBox": "邮政信箱100",
+        "city": "00100 赫尔辛基"
+      },
+      "costs": {
+        "title": "退货费用",
+        "defective": "有缺陷或错误商品免费退货",
+        "over100": "100€以上订单免费退货",
+        "other": "其他退货：客户承担运费（约5-10€）"
+      },
+      "exchange": {
+        "title": "换货",
+        "description": "如需换货，建议退回商品后重新下单，确保商品有货且快速送达。"
+      },
+      "exceptions": {
+        "title": "退货限制",
+        "description": "以下商品不适用退货政策：",
+        "hygiene": "已开封的卫生用品",
+        "custom": "定制或特殊订购商品",
+        "sealed": "已开封的密封商品（如软件）",
+        "perishable": "易腐商品"
+      },
+      "contact": {
+        "title": "退货帮助",
+        "description": "我们的客服团队很乐意帮助您解决退货相关问题。",
+        "email": "发送邮件",
+        "phone": "致电我们"
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "查找常见问题的答案。如果没有找到您需要的，请联系客服。",
+      "ordering": {
+        "title": "下单",
+        "howToOrder": {
+          "q": "如何下单？",
+          "a": "将商品加入购物车，进入结算页面，填写配送和支付信息，确认订单。您将收到订单确认邮件。"
+        },
+        "changeOrder": {
+          "q": "下单后可以修改吗？",
+          "a": "如果订单尚未发货，我们可以进行修改。请尽快联系客服。"
+        },
+        "cancelOrder": {
+          "q": "如何取消订单？",
+          "a": "发货前可免费取消订单。请通过邮件或电话联系客服。"
+        }
+      },
+      "payment": {
+        "title": "支付",
+        "methods": {
+          "q": "可以使用哪些支付方式？",
+          "a": "我们接受所有主流银行卡和信用卡（Visa、Mastercard、American Express）、网银支付以及企业发票。"
+        },
+        "secure": {
+          "q": "支付安全吗？",
+          "a": "是的。我们使用SSL加密，所有支付交易均通过安全支付服务商处理。我们不存储您的信用卡信息。"
+        },
+        "when": {
+          "q": "什么时候扣款？",
+          "a": "信用卡支付在确认订单后立即扣款。发票支付期限为14天。"
+        }
+      },
+      "delivery": {
+        "title": "配送",
+        "time": {
+          "q": "配送需要多长时间？",
+          "a": "现货商品通常1-3个工作日。定制商品5-10个工作日。商品页面显示预计配送时间。"
+        },
+        "cost": {
+          "q": "配送费用是多少？",
+          "a": "自提柜3.90€，送货上门5.90€。100€以上订单免费配送至自提柜。"
+        },
+        "track": {
+          "q": "可以追踪物流吗？",
+          "a": "可以。订单发货后您将收到追踪码邮件，可实时查看物流状态。"
+        }
+      },
+      "returns": {
+        "title": "退货",
+        "howTo": {
+          "q": "如何退货？",
+          "a": "您享有14天退货权。通知客服，将商品原包装寄回退货地址即可。"
+        },
+        "costs": {
+          "q": "退货费用谁承担？",
+          "a": "有缺陷或错误商品免费退货。其他情况客户承担运费（约5-10€）。100€以上订单免费退货。"
+        },
+        "refund": {
+          "q": "多久能收到退款？",
+          "a": "我们在3-5个工作日内处理退货。退款到账时间为2-5个工作日。"
+        }
+      },
+      "products": {
+        "title": "商品与保修",
+        "warranty": {
+          "q": "商品有保修吗？",
+          "a": "所有商品至少12个月保修。部分厂商提供更长保修期。具体保修条款见商品页面。"
+        },
+        "defective": {
+          "q": "商品有问题怎么办？",
+          "a": "请联系客服。我们会快速处理投诉，发送新商品或全额退款。"
+        },
+        "genuine": {
+          "q": "商品是正品吗？",
+          "a": "是的。所有商品均为正品，直接从制造商或授权进口商采购。"
+        }
+      },
+      "account": {
+        "title": "用户账户",
+        "need": {
+          "q": "下单需要注册吗？",
+          "a": "不需要，您可以以游客身份下单。但注册账户可以更方便地追踪订单和加速结算。"
+        },
+        "create": {
+          "q": "如何创建账户？",
+          "a": "点击右上角的「注册」按钮，填写信息。您将收到确认邮件。"
+        },
+        "forgot": {
+          "q": "忘记密码怎么办？",
+          "a": "在登录页面点击「忘记密码？」链接，我们会发送密码重置邮件。"
+        }
+      },
+      "notFound": {
+        "title": "没找到答案？",
+        "description": "我们的客服工作日9-17在线",
+        "contact": "联系我们",
+        "phone": "+358 20 123 4567"
+      }
+    },
+    "about": {
+      "title": "关于我们",
+      "subtitle": "优质商品，值得信赖的服务，始于2010年",
+      "story": {
+        "title": "我们的故事",
+        "p1": "Mall & More成立于2010年，使命简单：让优质商品人人可得。从赫尔辛基的一个小仓库起步，我们已成长为芬兰领先的在线零售商之一。",
+        "p2": "如今，我们服务数十万满意客户，与数千家供应商合作，以有竞争力的价格为您带来最佳商品。"
+      },
+      "values": {
+        "title": "我们的价值观",
+        "quality": {
+          "title": "品质",
+          "description": "我们精心挑选可靠供应商的商品，确保最高质量标准。"
+        },
+        "service": {
+          "title": "客户服务",
+          "description": "您的满意是我们的优先事项。我们专业的团队每个工作日为您提供帮助。"
+        },
+        "price": {
+          "title": "最优价格",
+          "description": "我们直接与供应商合作，在不妥协品质的前提下提供有竞争力的价格。"
+        },
+        "sustainability": {
+          "title": "可持续发展",
+          "description": "我们致力于环保运营和可持续商业实践。"
+        }
+      },
+      "stats": {
+        "title": "数据一览",
+        "customers": "{count}+ 客户",
+        "products": "{count}+ 商品",
+        "orders": "{count}+ 已交付订单",
+        "satisfaction": "{count}% 满意度"
+      },
+      "team": {
+        "title": "我们的团队",
+        "description": "我们拥有一支充满热情的专业团队，致力于提供最佳购物体验。从客户服务到物流，每位成员都在我们的成功中发挥着重要作用。"
+      },
+      "sustainability": {
+        "title": "可持续发展",
+        "description": "环境责任对我们很重要。我们减少浪费，使用环保包装，支持可再生能源。我们与同样致力于可持续发展的供应商合作。"
+      }
+    },
+    "careers": {
+      "title": "加入Mall & More",
+      "subtitle": "加入我们不断壮大的团队",
+      "why": {
+        "title": "为什么加入Mall & More？",
+        "description": "我们正在寻找热衷于提供优秀客户服务和创新解决方案的人才。如果您对电商充满热情，欢迎加入我们！",
+        "benefits": "有竞争力的薪资、灵活的工作时间、职业发展机会和支持性的工作环境。"
+      },
+      "positions": {
+        "title": "开放职位",
+        "noPositions": "目前没有开放职位，请稍后再来！",
+        "customerService": {
+          "title": "客服代表",
+          "location": "赫尔辛基",
+          "description": "帮助客户处理咨询、订单和退货。需流利使用芬兰语和英语。"
+        },
+        "logistics": {
+          "title": "物流协调员",
+          "location": "赫尔辛基",
+          "description": "管理仓库运营、订单处理和物流配送。"
+        },
+        "developer": {
+          "title": "全栈开发工程师",
+          "location": "赫尔辛基/远程",
+          "description": "使用现代Web技术帮助我们打造下一代电商平台。"
+        }
+      },
+      "process": {
+        "title": "申请流程",
+        "step1": {
+          "title": "1. 提交申请",
+          "description": "将简历和求职信发送至careers@mallandmore.fi"
+        },
+        "step2": {
+          "title": "2. 初步审核",
+          "description": "我们审核申请并联系合适的候选人进行面试。"
+        },
+        "step3": {
+          "title": "3. 面试",
+          "description": "参加一轮或多轮面试，讨论您的资质和经验。"
+        },
+        "step4": {
+          "title": "4. 录用",
+          "description": "如被选中，我们将发出加入团队的邀请。"
+        }
+      },
+      "contact": {
+        "title": "有兴趣？",
+        "description": "请将申请发送至：",
+        "email": "careers@mallandmore.fi"
+      }
+    },
+    "press": {
+      "title": "新闻中心",
+      "subtitle": "最新新闻和媒体信息",
+      "media": {
+        "title": "媒体联系",
+        "name": "公关部",
+        "email": "press@mallandmore.fi",
+        "phone": "+358 20 123 4567",
+        "description": "媒体采访和新闻素材请联系我们的公关部门。"
+      },
+      "releases": {
+        "title": "新闻稿",
+        "noReleases": "暂无新闻稿。",
+        "date": "发布日期：{date}"
+      },
+      "assets": {
+        "title": "品牌素材",
+        "description": "下载我们的标志、品牌指南和商品图片供媒体使用。",
+        "logo": "标志包",
+        "guidelines": "品牌指南",
+        "images": "商品图片"
+      },
+      "facts": {
+        "title": "快速了解",
+        "founded": "成立：2010年",
+        "headquarters": "总部：芬兰赫尔辛基",
+        "employees": "团队：50+员工",
+        "languages": "语言：芬兰语、瑞典语、英语、中文",
+        "countries": "配送：覆盖全芬兰",
+        "customers": "客户：300,000+",
+        "products": "商品：50,000+",
+        "dailyOrders": "日订单量：500+"
+      }
+    },
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新：{date}",
+      "agreement": {
+        "title": "协议",
+        "description": "本服务条款构成您（「用户」或「客户」）与Mall & More有限公司（「公司」）之间的约束性协议。访问和使用我们的网站和服务即表示您同意受这些条款的约束。"
+      },
+      "usage": {
+        "title": "合理使用",
+        "description": "您同意不会将本网站用于任何非法目的或违反这些条款的方式。禁止行为包括：",
+        "item1": "骚扰或给任何人造成困扰",
+        "item2": "干扰网站正常对话流程",
+        "item3": "未经授权访问我们的系统",
+        "item4": "传播淫秽或冒犯性内容",
+        "item5": "干扰网站正常对话流程"
+      },
+      "intellectualProperty": {
+        "title": "知识产权",
+        "description": "本网站所有内容，包括文字、图形、标志和图片，均为Mall & More有限公司或其内容供应商的财产，受国际版权法保护。"
+      },
+      "limitation": {
+        "title": "责任限制",
+        "description": "在法律允许的最大范围内，Mall & More不对因使用或无法使用网站或服务而产生的任何间接、偶发、特殊、后果性或惩罚性损害承担责任。"
+      },
+      "disclaimer": {
+        "title": "免责声明",
+        "description": "网站及其内容按「原样」提供，不提供任何形式的保证。我们不保证网站上任何信息的准确性、完整性或实用性。"
+      }
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：{date}",
+      "intro": {
+        "title": "您的隐私很重要",
+        "description": "Mall & More有限公司（「我们」）运营本网站。本页面告知您我们在您使用网站时收集、使用和披露个人数据的政策。"
+      },
+      "collection": {
+        "title": "我们收集的信息",
+        "personal": {
+          "title": "个人信息",
+          "description": "当您创建账户或下单时，我们收集您的姓名、邮箱、电话号码和收货/账单地址等信息。"
+        },
+        "payment": {
+          "title": "支付信息",
+          "description": "我们不存储支付卡信息。支付信息通过安全的支付服务商处理。"
+        },
+        "usage": {
+          "title": "使用数据",
+          "description": "我们自动收集您与网站的交互信息，包括IP地址、浏览器类型、访问页面和停留时间。"
+        },
+        "cookies": {
+          "title": "Cookie",
+          "description": "我们使用Cookie和类似追踪技术来追踪网站活动并改善您的体验。"
+        }
+      },
+      "use": {
+        "title": "我们如何使用您的信息",
+        "item1": "提供和维护服务",
+        "item2": "通知您服务变更",
+        "item3": "处理订单并发送相关信息",
+        "item4": "提供客户支持",
+        "item5": "收集分析或有价值的信息以改善服务",
+        "item6": "监控服务使用情况"
+      },
+      "gdpr": {
+        "title": "GDPR合规",
+        "description": "我们遵守通用数据保护条例（GDPR）。您有权访问、更正或删除您的个人信息，也有权限制处理或反对处理您的数据。"
+      },
+      "retention": {
+        "title": "数据保留",
+        "description": "我们在提供服务和实现本政策所述目的所需的期限内保留个人数据，除非法律要求更长的保留期。"
+      },
+      "contact": {
+        "title": "联系我们",
+        "description": "如果您对本隐私政策有疑问，请联系：",
+        "email": "privacy@mallandmore.fi"
+      }
+    },
+    "cookies": {
+      "title": "Cookie政策",
+      "lastUpdated": "最后更新：{date}",
+      "intro": {
+        "title": "我们使用Cookie",
+        "description": "Mall & More使用Cookie和类似技术来增强您的浏览体验、个性化内容和分析网站流量。"
+      },
+      "types": {
+        "title": "Cookie类型",
+        "essential": {
+          "title": "必要Cookie",
+          "description": "这些Cookie是网站正常运行所必需的。它们提供安全、用户认证和法律合规等核心功能。"
+        },
+        "performance": {
+          "title": "性能Cookie",
+          "description": "这些Cookie收集您使用网站的信息，如访问页面。帮助我们改善网站性能和用户体验。"
+        },
+        "functional": {
+          "title": "功能Cookie",
+          "description": "这些Cookie允许网站记住您的选择，如语言偏好或登录信息，提供更个性化的体验。"
+        },
+        "marketing": {
+          "title": "营销Cookie",
+          "description": "这些Cookie用于追踪您的网站活动，以展示与您兴趣相关的定向广告。"
+        }
+      },
+      "preferences": {
+        "title": "Cookie偏好设置",
+        "description": "您可以通过浏览器设置控制Cookie。大多数浏览器允许您拒绝Cookie或在发送Cookie时提醒您。请注意，禁用Cookie可能影响网站功能。"
+      },
+      "thirdParty": {
+        "title": "第三方Cookie",
+        "description": "我们与第三方服务（如分析和广告合作伙伴）合作，他们可能在您的设备上设置自己的Cookie。"
+      },
+      "contact": {
+        "title": "Cookie相关问题？",
+        "description": "如果您对Cookie政策有疑问，请联系：",
+        "email": "privacy@mallandmore.fi"
+      }
+    }
+  },
+  "cart": {
+    "title": "购物车",
+    "empty": "购物车是空的",
+    "continueShopping": "继续购物",
+    "subtotal": "小计",
+    "total": "总计",
+    "proceedToCheckout": "去结算",
+    "remove": "移除",
+    "quantity": "数量",
+    "addedToCart": "已加入购物车！",
+    "outOfStock": "库存不足",
+    "price": "价格",
+    "product": "商品",
+    "lineTotal": "合计",
+    "loginRequired": "请登录后查看购物车。",
+    "loginButton": "登录"
+  },
+  "profile": {
+    "title": "我的账户",
+    "personalInfo": "个人信息",
+    "firstName": "名",
+    "lastName": "姓",
+    "phone": "电话",
+    "email": "邮箱",
+    "language": "首选语言",
+    "saveChanges": "保存更改",
+    "saved": "个人信息已更新",
+    "changePassword": "修改密码",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "passwordChanged": "密码修改成功",
+    "passwordMismatch": "两次输入的密码不一致",
+    "manageAddresses": "管理地址",
+    "orderHistory": "订单历史"
+  },
+  "checkout": {
+    "title": "结算",
+    "shipping": "配送",
+    "review": "确认并支付",
+    "selectAddress": "选择配送地址",
+    "noAddresses": "暂无保存的地址，请先添加一个。",
+    "continue": "继续",
+    "shippingAddress": "配送地址",
+    "orderItems": "订单商品",
+    "orderSummary": "订单摘要",
+    "notes": "订单备注",
+    "notesPlaceholder": "有特殊要求请在此备注...",
+    "placeOrder": "提交订单",
+    "thankYou": "感谢您的订单！",
+    "orderPlaced": "您的订单已成功提交。",
+    "viewOrder": "查看订单详情",
+    "tax": "税费",
+    "shipping_label": "运费",
+    "free": "免运费",
+    "discount": "折扣",
+    "freeShippingNote": "满100€免运费",
+    "coupon": "优惠码",
+    "couponPlaceholder": "输入优惠码",
+    "applyCoupon": "使用",
+    "freeShippingCoupon": "免运费（优惠券）"
+  },
+  "orders": {
+    "title": "订单历史",
+    "order": "订单",
+    "items": "商品",
+    "details": "订单详情",
+    "date": "日期",
+    "payment": "支付方式",
+    "paymentStatus": "支付状态",
+    "backToOrders": "返回订单列表",
+    "backToProfile": "返回个人中心",
+    "noOrders": "暂无订单"
+  },
+  "admin": {
+    "dashboard": "管理后台",
+    "products": "商品",
+    "orders": "订单",
+    "revenue": "近期收入",
+    "manageProducts": "商品管理",
+    "manageOrders": "订单管理",
+    "viewStore": "查看店铺",
+    "recentOrders": "近期订单",
+    "noOrders": "暂无订单",
+    "backToDashboard": "返回管理后台",
+    "inventory": "库存"
+  },
+  "addresses": {
+    "title": "我的地址",
+    "addNew": "添加新地址",
+    "edit": "编辑",
+    "delete": "删除",
+    "deleteConfirm": "确定要删除此地址吗？",
+    "fullName": "姓名",
+    "phone": "电话",
+    "addressLine1": "地址行1",
+    "addressLine2": "地址行2",
+    "city": "城市",
+    "postalCode": "邮政编码",
+    "country": "国家",
+    "defaultShipping": "默认配送地址",
+    "save": "保存地址",
+    "cancel": "取消",
+    "saved": "地址保存成功",
+    "deleted": "地址已删除"
+  },
+  "reviews": {
+    "title": "评价",
+    "writeReview": "写评价",
+    "submitReview": "提交评价",
+    "noReviews": "暂无评价",
+    "beFirst": "成为第一个评价此商品的人！",
+    "loading": "加载评价中...",
+    "verifiedPurchase": "已验证购买",
+    "helpful": "{count}人觉得有用",
+    "loginRequired": "请登录后写评价",
+    "stars": "星",
+    "rating": "评分",
+    "reviewTitle": "标题",
+    "reviewComment": "评价内容",
+    "reviewSubmitted": "评价提交成功！",
+    "page": "第{current}页 / 共{total}页"
+  },
+  "wishlist": {
+    "title": "我的收藏",
+    "empty": "收藏夹是空的",
+    "browseProducts": "浏览商品",
+    "addToCart": "加入购物车",
+    "outOfStock": "缺货",
+    "removeFromWishlist": "取消收藏"
+  },
+  "deals": {
+    "pageTitle": "优惠活动",
+    "onSale": "{count}件商品促销中",
+    "featuredTitle": "精选商品",
+    "featuredCount": "{count}件精选",
+    "noDeals": "暂无优惠或精选商品。"
+  },
+  "tracking": {
+    "title": "追踪订单",
+    "subtitle": "输入订单号和邮箱查看物流状态。",
+    "orderNumber": "订单号",
+    "email": "邮箱",
+    "search": "追踪订单",
+    "searching": "查询中...",
+    "notFound": "未找到订单，请检查订单号和邮箱。",
+    "items": "商品",
+    "backToStore": "返回商店",
+    "cancelled": "此订单已取消。",
+    "trackingNumber": "物流单号"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "search": "Search",
+    "searchPlaceholder": "Search products...",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "remove": "Remove",
+    "yes": "Yes",
+    "no": "No",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "hello": "Hi",
+    "loginRequired": "Please log in"
+  },
+  "serviceBar": {
+    "fastDelivery": {
+      "title": "Fast Delivery",
+      "subtitle": "Delivery 1-3 days"
+    },
+    "securePayment": {
+      "title": "Secure Payment",
+      "subtitle": "All payment methods"
+    },
+    "returns": {
+      "title": "14-Day Return Policy",
+      "subtitle": "Free returns"
+    },
+    "customerService": {
+      "title": "Customer Service",
+      "subtitle": "Help 7 days a week"
+    }
+  },
+  "deliveryInfo": {
+    "stock": {
+      "inStock": "In Stock",
+      "outOfStock": "Out of Stock",
+      "fastDelivery": "Fast delivery",
+      "availableLater": "Available later"
+    },
+    "delivery": {
+      "title": "Delivery Time"
+    },
+    "warranty": {
+      "title": "Warranty",
+      "year": "year",
+      "years": "years",
+      "months": "months"
+    },
+    "returnPolicy": {
+      "title": "Return Policy",
+      "subtitle": "14-day return policy"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "deals": "Deals",
+    "about": "About",
+    "contact": "Contact",
+    "viewAll": "View all",
+    "viewAllCategories": "View all categories",
+    "trackOrder": "Track Order",
+    "adminPanel": "Admin Panel",
+    "myOrders": "My Orders"
+  },
+  "home": {
+    "hero": {
+      "title": "Welcome - Mall & More",
+      "subtitle": "Quality Products - Fast Delivery - Best Prices",
+      "browseProducts": "Browse Products",
+      "viewCategories": "Categories"
+    },
+    "deals": {
+      "title": "Deals",
+      "viewAll": "View All"
+    },
+    "featured": {
+      "title": "Featured Products",
+      "viewAll": "View All"
+    },
+    "systemStatus": {
+      "title": "System Status",
+      "backendApi": "Backend API",
+      "healthy": "healthy",
+      "disconnected": "disconnected"
+    },
+    "popularCategories": "Popular Categories",
+    "viewAllCategories": "View All Categories"
+  },
+  "products": {
+    "title": "Products",
+    "loading": "Loading products...",
+    "noProducts": "No products",
+    "searchResults": "Search results for:",
+    "filteredByCategory": "Filtered by category",
+    "sortBy": "Sort by:",
+    "sortOptions": {
+      "popular": "Most Popular",
+      "priceLowToHigh": "Price: Low to High",
+      "priceHighToLow": "Price: High to Low",
+      "newest": "Newest First"
+    },
+    "deal": "DEAL",
+    "featured": "FEATURED",
+    "outOfStock": "OUT OF STOCK",
+    "inStock": "In stock ({count} pcs)",
+    "addToCart": "Add to Cart",
+    "addToWishlist": "Add to Wishlist",
+    "savePercent": "Save {percent}%",
+    "notFound": "Product not found",
+    "failedToLoad": "Failed to load product",
+    "searchPlaceholder": "Search products by name, brand, or category...",
+    "search": "Search"
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "home": "Home",
+      "products": "Products"
+    },
+    "loading": "Loading product...",
+    "quantity": "Quantity",
+    "specifications": "Specifications",
+    "description": "Product Description",
+    "noImageAvailable": "No image available",
+    "brand": "Brand",
+    "recentlyViewed": "Recently Viewed",
+    "onlyLeft": "Only {count} left"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "writeReview": "Write a Review",
+    "submitReview": "Submit Review",
+    "noReviews": "No reviews yet",
+    "beFirst": "Be the first to review this product!",
+    "loading": "Loading reviews...",
+    "verifiedPurchase": "Verified Purchase",
+    "helpful": "{count} people found this helpful",
+    "loginRequired": "Please log in to write a review",
+    "stars": "stars",
+    "rating": "Rating",
+    "reviewTitle": "Title",
+    "reviewComment": "Review",
+    "reviewSubmitted": "Review submitted successfully!",
+    "page": "Page {current} / {total}"
+  },
+  "wishlist": {
+    "title": "My Wishlist",
+    "empty": "Your wishlist is empty",
+    "browseProducts": "Browse Products",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "removeFromWishlist": "Remove from wishlist"
+  },
+  "deals": {
+    "pageTitle": "Deals & Offers",
+    "onSale": "{count} products on sale",
+    "featuredTitle": "Featured Products",
+    "featuredCount": "{count} featured",
+    "noDeals": "No deals or featured products at the moment."
+  },
+  "tracking": {
+    "title": "Track Your Order",
+    "subtitle": "Enter your order number and email to check the status.",
+    "orderNumber": "Order Number",
+    "email": "Email",
+    "search": "Track Order",
+    "searching": "Searching...",
+    "notFound": "Order not found. Please check your order number and email.",
+    "items": "Items",
+    "backToStore": "Back to Store",
+    "cancelled": "This order has been cancelled.",
+    "trackingNumber": "Tracking Number"
+  },
+  "categories": {
+    "title": "Categories",
+    "loading": "Loading categories...",
+    "noCategories": "No categories",
+    "failedToLoad": "Failed to load categories",
+    "subcategories": "{count} subcategories",
+    "products": "{count} products"
+  },
+  "auth": {
+    "login": {
+      "title": "Log In",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Log In",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register here",
+      "forgotPassword": "Forgot password?"
+    },
+    "register": {
+      "title": "Create Account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Register",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Log in"
+    }
+  },
+  "footer": {
+    "brandName": "Mall & More",
+    "tagline": "Quality Products - Fast Delivery - Competitive Prices",
+    "customerService": "Customer Service",
+    "contact": "Contact",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "faq": "FAQ",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "press": "Press",
+    "legal": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies",
+    "copyright": "© {year} Mall & More. All rights reserved.",
+    "paymentMethods": "Payment Methods:"
+  },
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page {current} of {total}"
+  },
+  "errors": {
+    "generic": "Something went wrong",
+    "notFound": "Page not found",
+    "unauthorized": "Unauthorized",
+    "serverError": "Server error"
+  },
+  "pages": {
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in touch",
+      "phone": {
+        "title": "Phone Service",
+        "number": "+358 20 123 4567",
+        "hours": "Mon-Fri 9-17, Sat 10-15"
+      },
+      "email": {
+        "title": "Email",
+        "address": "customerservice@mallandmore.fi",
+        "responseTime": "We respond within 24h"
+      },
+      "address": {
+        "title": "Address",
+        "company": "Mall & More Ltd",
+        "street": "Shopping Street 1",
+        "city": "00100 Helsinki"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "weekdays": "Mon-Fri: 9:00 - 20:00",
+        "saturday": "Sat: 10:00 - 18:00",
+        "sunday": "Sun: 12:00 - 18:00"
+      },
+      "form": {
+        "title": "Send Message",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message",
+        "required": "*",
+        "submit": "Send Message"
+      }
+    },
+    "shipping": {
+      "title": "Shipping",
+      "express": {
+        "title": "Express Delivery",
+        "description": "Delivery next business day. Order must be placed before 2 PM.",
+        "price": "9.90 € - 14.90 €"
+      },
+      "home": {
+        "title": "Home Delivery",
+        "description": "Delivered to your door within 1-3 business days. You can choose delivery time.",
+        "price": "5.90 €"
+      },
+      "pickup": {
+        "title": "Pick up from parcel locker",
+        "description": "Pick up your order from the nearest parcel locker within 2-4 business days.",
+        "price": "3.90 €"
+      },
+      "free": {
+        "title": "Free Shipping",
+        "description": "Orders over 100 € delivered free to parcel locker.",
+        "price": "0 € (orders over 100 €)"
+      },
+      "times": {
+        "title": "Delivery Times",
+        "inStock": "In stock items: 1-3 business days",
+        "order": "Order items: 5-10 business days",
+        "special": "Special items: separately agreed schedule"
+      },
+      "tracking": {
+        "title": "Order Tracking",
+        "description": "You will receive a tracking code by email as soon as your order has been shipped. You can track the shipment in real-time on the carrier's website."
+      },
+      "areas": {
+        "title": "Delivery Areas",
+        "description": "We deliver throughout Finland. Special delivery conditions may apply to:",
+        "ahvenanmaa": "Åland: surcharge 15 €",
+        "archipelago": "Archipelago: delivery arranged separately",
+        "large": "Large products: separately agreed delivery"
+      }
+    },
+    "returns": {
+      "title": "Returns",
+      "policy": {
+        "title": "14-day right of return",
+        "description": "You have the right to return a product ordered from the online store within 14 days of receiving the product without explanation. The product must be unused and in its original packaging."
+      },
+      "howTo": {
+        "title": "How to return a product",
+        "step1": {
+          "title": "Notify of return",
+          "description": "Send an email to returns@mallandmore.fi or call our customer service. Provide your order number and the product to be returned."
+        },
+        "step2": {
+          "title": "Pack carefully",
+          "description": "Pack the product in its original packaging or in a similar protective packaging. Include a copy of the purchase receipt or order confirmation."
+        },
+        "step3": {
+          "title": "Send package",
+          "description": "Deliver the package to the nearest post office or parcel locker. Keep the shipping receipt as proof of return."
+        },
+        "step4": {
+          "title": "Get refund",
+          "description": "We process your return within 3-5 business days. Refund is paid back to the same account from which the payment was made."
+        }
+      },
+      "address": {
+        "title": "Return Address",
+        "company": "Mall & More Ltd",
+        "department": "Returns",
+        "poBox": "PO Box 100",
+        "city": "00100 Helsinki"
+      },
+      "costs": {
+        "title": "Return Costs",
+        "defective": "Free return for defective or incorrect products",
+        "over100": "Free return for orders over 100 €",
+        "other": "Other returns: customer pays return costs (approx. 5-10 €)"
+      },
+      "exchange": {
+        "title": "Exchange Product",
+        "description": "If you want to exchange a product for another, we recommend returning the product and placing a new order in the online store. This way you can be sure that the product you want is available and you'll get it quickly."
+      },
+      "exceptions": {
+        "title": "Right of Return Limitations",
+        "description": "The right of return does not apply to the following products:",
+        "hygiene": "Hygiene products that have been opened",
+        "custom": "Customized or order products",
+        "sealed": "Sealed products that have been opened (e.g. software)",
+        "perishable": "Perishable products"
+      },
+      "contact": {
+        "title": "Need help with return?",
+        "description": "Our customer service is happy to help with all return-related questions.",
+        "email": "Send Email",
+        "phone": "Call Us"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions. If you don't find what you're looking for, contact our customer service.",
+      "ordering": {
+        "title": "Ordering",
+        "howToOrder": {
+          "q": "How do I place an order?",
+          "a": "Add desired products to cart and go to checkout. Fill in delivery and payment information and confirm order. You will receive an order confirmation by email."
+        },
+        "changeOrder": {
+          "q": "Can I change my order after placing it?",
+          "a": "If the order hasn't left our warehouse yet, we can make changes. Contact our customer service as soon as possible after placing the order."
+        },
+        "cancelOrder": {
+          "q": "How can I cancel my order?",
+          "a": "You can cancel your order for free before it has been shipped. Contact our customer service by email or phone."
+        }
+      },
+      "payment": {
+        "title": "Payment",
+        "methods": {
+          "q": "What payment methods can I use?",
+          "a": "We accept all common bank and credit cards (Visa, Mastercard, American Express), online banking payments, and invoice for companies."
+        },
+        "secure": {
+          "q": "Is the payment secure?",
+          "a": "Yes. We use SSL encryption and all payment transactions are processed securely through the payment service provider. We do not store your credit card information."
+        },
+        "when": {
+          "q": "When does the charge occur?",
+          "a": "For card purchases, the charge occurs immediately after order confirmation. For invoice, the payment period is 14 days."
+        }
+      },
+      "delivery": {
+        "title": "Delivery",
+        "time": {
+          "q": "How long does delivery take?",
+          "a": "Normally 1-3 business days for in-stock items. Delivery time for order items is 5-10 business days. Estimated delivery time is shown on the product page."
+        },
+        "cost": {
+          "q": "How much does delivery cost?",
+          "a": "To parcel locker 3.90 €, home delivery 5.90 €. Orders over 100 € are delivered free to parcel locker."
+        },
+        "track": {
+          "q": "Can I track my shipment?",
+          "a": "Yes. You will receive a tracking code by email as soon as your order leaves our warehouse. You can track the shipment in real-time."
+        }
+      },
+      "returns": {
+        "title": "Returns",
+        "howTo": {
+          "q": "How can I return a product?",
+          "a": "You have a 14-day right of return. Notify our customer service of the return, pack the product in its original packaging and send it to our return address."
+        },
+        "costs": {
+          "q": "Who pays return costs?",
+          "a": "Returns of defective or incorrect products are free. In other cases, customer pays return costs (approx. 5-10 €). Orders over 100 €: free return."
+        },
+        "refund": {
+          "q": "When will I get my money back?",
+          "a": "We process the return within 3-5 business days. Refund is paid to the same account from which the payment was made. Bank processing time is 2-5 business days."
+        }
+      },
+      "products": {
+        "title": "Products and Warranty",
+        "warranty": {
+          "q": "Do products have warranty?",
+          "a": "All our products have at least 12 months warranty. Many manufacturers offer longer warranty. Warranty terms are stated on the product page."
+        },
+        "defective": {
+          "q": "What do I do if a product is defective?",
+          "a": "Contact our customer service. We process complaints quickly and deliver a new product or refund the full payment."
+        },
+        "genuine": {
+          "q": "Are the products genuine?",
+          "a": "Yes. All our products are genuine and we source them directly from manufacturers or authorized importers."
+        }
+      },
+      "account": {
+        "title": "Customer Account",
+        "need": {
+          "q": "Do I need a user account to place an order?",
+          "a": "No. You can also place an order as a guest. However, a user account makes it easier to track orders and speeds up checkout."
+        },
+        "create": {
+          "q": "How do I create a user account?",
+          "a": "Click the 'Register' button in the top corner and fill in the required information. You will receive a confirmation link by email."
+        },
+        "forgot": {
+          "q": "I forgot my password. What should I do?",
+          "a": "Click the 'Forgot password?' link on the login page. We will send password reset instructions to your email."
+        }
+      },
+      "notFound": {
+        "title": "Didn't find an answer?",
+        "description": "Our customer service is available weekdays 9-17",
+        "contact": "Contact Us",
+        "phone": "+358 20 123 4567"
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "subtitle": "Quality Products, Trusted Service Since 2010",
+      "story": {
+        "title": "Our Story",
+        "p1": "Mall & More was founded in 2010 with a simple mission: to make quality products accessible to everyone. Starting from a small warehouse in Helsinki, we have grown into one of Finland's leading online retailers.",
+        "p2": "Today, we serve hundreds of thousands of satisfied customers and partner with thousands of suppliers to bring you the best selection of products at competitive prices."
+      },
+      "values": {
+        "title": "Our Values",
+        "quality": {
+          "title": "Quality",
+          "description": "We carefully select products from reliable suppliers to ensure the highest quality standards."
+        },
+        "service": {
+          "title": "Customer Service",
+          "description": "Your satisfaction is our priority. Our dedicated team is available to help you every weekday."
+        },
+        "price": {
+          "title": "Best Prices",
+          "description": "We work directly with suppliers to offer competitive prices without compromising on quality."
+        },
+        "sustainability": {
+          "title": "Sustainability",
+          "description": "We are committed to environmentally responsible operations and sustainable business practices."
+        }
+      },
+      "stats": {
+        "title": "By The Numbers",
+        "customers": "{count}+ Customers",
+        "products": "{count}+ Products",
+        "orders": "{count}+ Orders Delivered",
+        "satisfaction": "{count}% Satisfaction Rate"
+      },
+      "team": {
+        "title": "Our Team",
+        "description": "We have a passionate team of professionals dedicated to providing the best shopping experience. From customer service to logistics, every member of our team plays a vital role in our success."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Environmental responsibility is important to us. We minimize waste, use eco-friendly packaging, and support renewable energy initiatives. We partner with suppliers who share our commitment to sustainability."
+      }
+    },
+    "careers": {
+      "title": "Careers at Mall & More",
+      "subtitle": "Join Our Growing Team",
+      "why": {
+        "title": "Why Join Mall & More?",
+        "description": "We're looking for talented individuals who are passionate about delivering excellent customer service and innovative solutions. If you're excited about working in e-commerce and want to be part of a dynamic team, we'd love to hear from you.",
+        "benefits": "Competitive salary, flexible working hours, professional development opportunities, and a supportive work environment."
+      },
+      "positions": {
+        "title": "Open Positions",
+        "noPositions": "Currently no open positions. Check back soon!",
+        "customerService": {
+          "title": "Customer Service Representative",
+          "location": "Helsinki",
+          "description": "Help our customers with inquiries, orders, and returns. Must be fluent in Finnish and English."
+        },
+        "logistics": {
+          "title": "Logistics Coordinator",
+          "location": "Helsinki",
+          "description": "Manage warehouse operations, order fulfillment, and shipping logistics."
+        },
+        "developer": {
+          "title": "Full Stack Developer",
+          "location": "Helsinki / Remote",
+          "description": "Help us build the next generation of our e-commerce platform using modern web technologies."
+        }
+      },
+      "process": {
+        "title": "Application Process",
+        "step1": {
+          "title": "1. Submit Your Application",
+          "description": "Send your CV and a cover letter to careers@mallandmore.fi"
+        },
+        "step2": {
+          "title": "2. Initial Review",
+          "description": "We review applications and contact suitable candidates for an interview."
+        },
+        "step3": {
+          "title": "3. Interview",
+          "description": "Participate in one or more interview rounds to discuss your qualifications and experience."
+        },
+        "step4": {
+          "title": "4. Offer",
+          "description": "If selected, we will extend an offer to join our team."
+        }
+      },
+      "contact": {
+        "title": "Interested?",
+        "description": "Send your application to:",
+        "email": "careers@mallandmore.fi"
+      }
+    },
+    "press": {
+      "title": "Press",
+      "subtitle": "Latest News and Media Information",
+      "media": {
+        "title": "Media Contact",
+        "name": "Press Relations",
+        "email": "press@mallandmore.fi",
+        "phone": "+358 20 123 4567",
+        "description": "For media inquiries, interviews, and press materials, please contact our press office."
+      },
+      "releases": {
+        "title": "Press Releases",
+        "noReleases": "No press releases available at the moment.",
+        "date": "Published: {date}"
+      },
+      "assets": {
+        "title": "Brand Assets",
+        "description": "Download our logos, brand guidelines, and product images for media use.",
+        "logo": "Logo Package",
+        "guidelines": "Brand Guidelines",
+        "images": "Product Images"
+      },
+      "facts": {
+        "title": "Quick Facts",
+        "founded": "Founded: 2010",
+        "headquarters": "Headquarters: Helsinki, Finland",
+        "employees": "Team: 50+ employees",
+        "languages": "Languages: Finnish, Swedish, English",
+        "countries": "Delivery: Throughout Finland",
+        "customers": "Customers: 300,000+",
+        "products": "Products: 50,000+",
+        "dailyOrders": "Daily Orders: 500+"
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last updated: {date}",
+      "agreement": {
+        "title": "Agreement",
+        "description": "These Terms of Service constitute a binding agreement between you ('User' or 'Customer') and Mall & More Ltd. ('Company'). By accessing and using our website and services, you agree to be bound by these terms."
+      },
+      "usage": {
+        "title": "Acceptable Use",
+        "description": "You agree not to use the site for any unlawful purpose or in any way that violates these terms. Prohibited behavior includes:",
+        "item1": "Harassing or causing distress or inconvenience to any person",
+        "item2": "Disrupting the normal flow of dialogue within our website",
+        "item3": "Attempting to gain unauthorized access to our systems",
+        "item4": "Transmitting obscene or offensive content",
+        "item5": "Disrupting the normal flow of dialogue within our website"
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property Rights",
+        "description": "All content on this website, including text, graphics, logos, and images, is the property of Mall & More Ltd or its content suppliers and is protected by international copyright laws."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "description": "To the fullest extent permitted by law, Mall & More shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the website or services."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "description": "The website and its content are provided on an 'as is' basis without warranty of any kind. We do not guarantee the accuracy, completeness, or usefulness of any information on our website."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: {date}",
+      "intro": {
+        "title": "Your Privacy Matters",
+        "description": "Mall & More Ltd ('we', 'us', or 'our') operates the website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our website and the choices you have associated with that data."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "personal": {
+          "title": "Personal Information",
+          "description": "When you create an account or place an order, we collect information such as your name, email address, phone number, and billing/shipping address."
+        },
+        "payment": {
+          "title": "Payment Information",
+          "description": "We do not store payment card details. Payment information is processed securely through our payment provider."
+        },
+        "usage": {
+          "title": "Usage Data",
+          "description": "We automatically collect information about your interactions with our website, including IP address, browser type, pages visited, and time spent on the site."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "description": "We use cookies and similar tracking technologies to track activity on our website and improve your experience."
+        }
+      },
+      "use": {
+        "title": "How We Use Your Information",
+        "item1": "To provide and maintain our service",
+        "item2": "To notify you about changes to our service",
+        "item3": "To process orders and send related information",
+        "item4": "To provide customer support",
+        "item5": "To gather analysis or valuable information for improving our service",
+        "item6": "To monitor the usage of our service"
+      },
+      "gdpr": {
+        "title": "GDPR Compliance",
+        "description": "We comply with the General Data Protection Regulation (GDPR). You have the right to access, correct, or delete your personal information. You also have the right to restrict processing or object to the processing of your data."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "description": "We retain personal data for as long as necessary to provide our services and fulfill the purposes outlined in this policy, unless a longer retention period is required by law."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "description": "If you have questions about this Privacy Policy, please contact:",
+        "email": "privacy@mallandmore.fi"
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: {date}",
+      "intro": {
+        "title": "We Use Cookies",
+        "description": "Mall & More uses cookies and similar technologies to enhance your browsing experience, personalize content, and analyze website traffic."
+      },
+      "types": {
+        "title": "Types of Cookies",
+        "essential": {
+          "title": "Essential Cookies",
+          "description": "These cookies are necessary for the website to function properly. They enable core functionality such as security, user authentication, and compliance with legal requirements."
+        },
+        "performance": {
+          "title": "Performance Cookies",
+          "description": "These cookies collect information about how you use our website, such as which pages you visit. They help us improve website performance and user experience."
+        },
+        "functional": {
+          "title": "Functional Cookies",
+          "description": "These cookies allow the website to remember choices you make, such as your language preference or login information, to provide a more personalized experience."
+        },
+        "marketing": {
+          "title": "Marketing Cookies",
+          "description": "These cookies are used to track your activity across websites to display targeted advertisements that are relevant to your interests."
+        }
+      },
+      "preferences": {
+        "title": "Cookie Preferences",
+        "description": "You can control cookies through your browser settings. Most browsers allow you to refuse cookies or alert you when cookies are being sent. Please note that disabling cookies may affect the functionality of our website."
+      },
+      "thirdParty": {
+        "title": "Third-Party Cookies",
+        "description": "We work with third-party services (such as analytics and advertising partners) that may set their own cookies on your device."
+      },
+      "contact": {
+        "title": "Questions About Cookies?",
+        "description": "If you have questions about our cookie policy, please contact:",
+        "email": "privacy@mallandmore.fi"
+      }
+    }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "proceedToCheckout": "Proceed to Checkout",
+    "remove": "Remove",
+    "quantity": "Qty",
+    "addedToCart": "Added to cart!",
+    "outOfStock": "Not enough stock available",
+    "loginRequired": "Please log in to view your cart.",
+    "price": "Price",
+    "product": "Product",
+    "lineTotal": "Total",
+    "loginButton": "Log In"
+  },
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "email": "Email",
+    "language": "Preferred Language",
+    "saveChanges": "Save Changes",
+    "saved": "Profile updated successfully",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm Password",
+    "passwordChanged": "Password changed successfully",
+    "passwordMismatch": "Passwords do not match",
+    "manageAddresses": "Manage Addresses",
+    "orderHistory": "Order History"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "shipping": "Shipping",
+    "review": "Review & Pay",
+    "selectAddress": "Select Shipping Address",
+    "noAddresses": "No addresses saved. Please add one first.",
+    "continue": "Continue",
+    "shippingAddress": "Shipping Address",
+    "orderItems": "Order Items",
+    "orderSummary": "Order Summary",
+    "notes": "Order Notes",
+    "notesPlaceholder": "Any special instructions for your order...",
+    "placeOrder": "Place Order",
+    "thankYou": "Thank you for your order!",
+    "orderPlaced": "Your order has been placed successfully.",
+    "viewOrder": "View Order Details",
+    "tax": "Tax",
+    "shipping_label": "Shipping",
+    "free": "Free",
+    "discount": "Discount",
+    "freeShippingNote": "Free shipping on orders over €100",
+    "coupon": "Coupon Code",
+    "couponPlaceholder": "Enter coupon code",
+    "applyCoupon": "Apply",
+    "freeShippingCoupon": "Free shipping (coupon)"
+  },
+  "orders": {
+    "title": "Order History",
+    "order": "Order",
+    "items": "Items",
+    "details": "Order Details",
+    "date": "Date",
+    "payment": "Payment",
+    "paymentStatus": "Payment Status",
+    "backToOrders": "Back to Orders",
+    "backToProfile": "Back to Profile",
+    "noOrders": "No orders yet"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "products": "Products",
+    "orders": "Orders",
+    "revenue": "Recent Revenue",
+    "manageProducts": "Manage Products",
+    "manageOrders": "Manage Orders",
+    "viewStore": "View Store",
+    "recentOrders": "Recent Orders",
+    "noOrders": "No orders yet",
+    "backToDashboard": "Back to Dashboard",
+    "inventory": "Inventory"
+  },
+  "addresses": {
+    "title": "My Addresses",
+    "addNew": "Add New Address",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this address?",
+    "fullName": "Full Name",
+    "phone": "Phone",
+    "addressLine1": "Address Line 1",
+    "addressLine2": "Address Line 2",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "defaultShipping": "Default Shipping Address",
+    "save": "Save Address",
+    "cancel": "Cancel",
+    "saved": "Address saved successfully",
+    "deleted": "Address deleted"
+  }
+}

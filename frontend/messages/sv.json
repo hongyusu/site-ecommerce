@@ -1,0 +1,839 @@
+{
+  "common": {
+    "loading": "Laddar...",
+    "error": "Fel",
+    "search": "Sök",
+    "searchPlaceholder": "Sök produkter...",
+    "cart": "Varukorg",
+    "account": "Konto",
+    "login": "Logga in",
+    "logout": "Logga ut",
+    "register": "Registrera",
+    "cancel": "Avbryt",
+    "save": "Spara",
+    "delete": "Radera",
+    "edit": "Redigera",
+    "add": "Lägg till",
+    "remove": "Ta bort",
+    "yes": "Ja",
+    "no": "Nej",
+    "back": "Tillbaka",
+    "next": "Nästa",
+    "previous": "Föregående",
+    "close": "Stäng",
+    "viewAll": "Visa alla",
+    "learnMore": "Läs mer",
+    "price": "Pris",
+    "quantity": "Antal",
+    "total": "Totalt",
+    "subtotal": "Delsumma",
+    "hello": "Hej",
+    "loginRequired": "Logga in"
+  },
+  "serviceBar": {
+    "fastDelivery": {
+      "title": "Snabb leverans",
+      "subtitle": "Leverans 1-3 dagar"
+    },
+    "securePayment": {
+      "title": "Säker betalning",
+      "subtitle": "Alla betalningsmetoder"
+    },
+    "returns": {
+      "title": "14 dagars returrätt",
+      "subtitle": "Gratis retur"
+    },
+    "customerService": {
+      "title": "Kundservice",
+      "subtitle": "Hjälp 7 dagar i veckan"
+    }
+  },
+  "deliveryInfo": {
+    "stock": {
+      "inStock": "I lager",
+      "outOfStock": "Ej i lager",
+      "fastDelivery": "Snabb leverans",
+      "availableLater": "Tillgänglig senare"
+    },
+    "delivery": {
+      "title": "Leveranstid"
+    },
+    "warranty": {
+      "title": "Garanti",
+      "year": "år",
+      "years": "år",
+      "months": "månader"
+    },
+    "returnPolicy": {
+      "title": "Returrätt",
+      "subtitle": "14 dagars returrätt"
+    }
+  },
+  "nav": {
+    "home": "Hem",
+    "products": "Produkter",
+    "categories": "Kategorier",
+    "deals": "Erbjudanden",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "viewAll": "Visa alla",
+    "viewAllCategories": "Visa alla kategorier",
+    "trackOrder": "Spåra order",
+    "adminPanel": "Adminpanel",
+    "myOrders": "Mina ordrar"
+  },
+  "home": {
+    "hero": {
+      "title": "Välkommen - Mall & More",
+      "subtitle": "Kvalitetsprodukter - Snabb leverans - Bästa priser",
+      "browseProducts": "Bläddra bland produkter",
+      "viewCategories": "Kategorier"
+    },
+    "deals": {
+      "title": "Erbjudanden",
+      "viewAll": "Visa alla"
+    },
+    "featured": {
+      "title": "Rekommenderade produkter",
+      "viewAll": "Visa alla"
+    },
+    "systemStatus": {
+      "title": "Systemstatus",
+      "backendApi": "Backend API",
+      "healthy": "healthy",
+      "disconnected": "disconnected"
+    },
+    "popularCategories": "Populära kategorier",
+    "viewAllCategories": "Visa alla kategorier"
+  },
+  "products": {
+    "title": "Produkter",
+    "loading": "Laddar produkter...",
+    "noProducts": "Inga produkter",
+    "searchResults": "Sökresultat för:",
+    "filteredByCategory": "Filtrerat efter kategori",
+    "sortBy": "Sortera:",
+    "sortOptions": {
+      "popular": "Mest populära",
+      "priceLowToHigh": "Pris: Lägst först",
+      "priceHighToLow": "Pris: Högst först",
+      "newest": "Nyaste först"
+    },
+    "deal": "ERBJUDANDE",
+    "featured": "REKOMMENDERAD",
+    "outOfStock": "SLUTSÅLD",
+    "inStock": "I lager ({count} st)",
+    "addToCart": "Lägg i varukorgen",
+    "addToWishlist": "Lägg till i önskelistan",
+    "savePercent": "Spara {percent}%",
+    "notFound": "Produkten hittades inte",
+    "failedToLoad": "Kunde inte ladda produkt",
+    "searchPlaceholder": "Sök produkter efter namn, märke eller kategori...",
+    "search": "Sök"
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "home": "Hem",
+      "products": "Produkter"
+    },
+    "loading": "Laddar produkt...",
+    "quantity": "Antal",
+    "specifications": "Tekniska specifikationer",
+    "description": "Produktbeskrivning",
+    "noImageAvailable": "Ingen bild tillgänglig",
+    "brand": "Varumärke",
+    "recentlyViewed": "Nyligen visade",
+    "onlyLeft": "Bara {count} kvar"
+  },
+  "categories": {
+    "title": "Kategorier",
+    "loading": "Laddar kategorier...",
+    "noCategories": "Inga kategorier",
+    "failedToLoad": "Kunde inte ladda kategorier",
+    "subcategories": "{count} underkategorier",
+    "products": "{count} produkter"
+  },
+  "auth": {
+    "login": {
+      "title": "Logga in",
+      "email": "E-post",
+      "password": "Lösenord",
+      "submit": "Logga in",
+      "noAccount": "Har du inget konto?",
+      "registerLink": "Registrera här",
+      "forgotPassword": "Glömt lösenord?"
+    },
+    "register": {
+      "title": "Skapa konto",
+      "name": "Namn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta lösenord",
+      "submit": "Registrera",
+      "hasAccount": "Har du redan ett konto?",
+      "loginLink": "Logga in"
+    }
+  },
+  "footer": {
+    "brandName": "Mall & More",
+    "tagline": "Kvalitetsprodukter - Snabb leverans - Konkurrenskraftiga priser",
+    "customerService": "Kundservice",
+    "contact": "Kontakt",
+    "shipping": "Leverans",
+    "returns": "Returer",
+    "faq": "FAQ",
+    "company": "Företag",
+    "about": "Om oss",
+    "careers": "Karriär",
+    "press": "Press",
+    "legal": "Juridik",
+    "terms": "Användarvillkor",
+    "privacy": "Integritet",
+    "cookies": "Cookies",
+    "copyright": "© {year} Mall & More. Alla rättigheter förbehållna.",
+    "paymentMethods": "Betalningsmetoder:"
+  },
+  "pagination": {
+    "previous": "Föregående",
+    "next": "Nästa",
+    "page": "Sida {current} / {total}"
+  },
+  "errors": {
+    "generic": "Något gick fel",
+    "notFound": "Sidan hittades inte",
+    "unauthorized": "Ej behörig",
+    "serverError": "Serverfel"
+  },
+  "pages": {
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Få kontakt med oss",
+      "phone": {
+        "title": "Telefonservice",
+        "number": "+358 20 123 4567",
+        "hours": "Mån-Fre 9-17, Lör 10-15"
+      },
+      "email": {
+        "title": "E-post",
+        "address": "customerservice@mallandmore.fi",
+        "responseTime": "Vi svarar inom 24 timmar"
+      },
+      "address": {
+        "title": "Adress",
+        "company": "Mall & More Ltd",
+        "street": "Handelsvägen 1",
+        "city": "00100 Helsingfors"
+      },
+      "hours": {
+        "title": "Öppettider",
+        "weekdays": "Mån-Fre: 9:00 - 20:00",
+        "saturday": "Lör: 10:00 - 18:00",
+        "sunday": "Sön: 12:00 - 18:00"
+      },
+      "form": {
+        "title": "Skicka meddelande",
+        "name": "Namn",
+        "email": "E-post",
+        "subject": "Ämne",
+        "message": "Meddelande",
+        "required": "*",
+        "submit": "Skicka meddelande"
+      }
+    },
+    "shipping": {
+      "title": "Leverans",
+      "express": {
+        "title": "Snabb leverans",
+        "description": "Leverans nästa arbetdag. Beställningen måste göras före 14:00.",
+        "price": "9.90 € - 14.90 €"
+      },
+      "home": {
+        "title": "Hemleverans",
+        "description": "Levererad till din dörr inom 1-3 arbetsdagar. Du kan välja leveranstid.",
+        "price": "5.90 €"
+      },
+      "pickup": {
+        "title": "Upphämtning vid paketautomat",
+        "description": "Hämta din beställning från närmaste paketautomat inom 2-4 arbetsdagar.",
+        "price": "3.90 €"
+      },
+      "free": {
+        "title": "Gratis frakt",
+        "description": "Beställningar över 100 € levereras gratis till paketautomat.",
+        "price": "0 € (beställningar över 100 €)"
+      },
+      "times": {
+        "title": "Leveranstider",
+        "inStock": "Varor i lager: 1-3 arbetsdagar",
+        "order": "Beställningsvaror: 5-10 arbetsdagar",
+        "special": "Specialvaror: separat överenskommet schema"
+      },
+      "tracking": {
+        "title": "Beställningsspårning",
+        "description": "Du får en spårningskod via e-post så snart din beställning har skickats från vårt lager. Du kan spåra försändelsen i realtid på transportörtens webbplats."
+      },
+      "areas": {
+        "title": "Leveransområden",
+        "description": "Vi levererar i hela Finland. Särskilda leveransvillkor kan gälla:",
+        "ahvenanmaa": "Åland: tilläggsavgift 15 €",
+        "archipelago": "Skärgård: leverans arrangeras separat",
+        "large": "Stora produkter: separat överenskommet leverans"
+      }
+    },
+    "returns": {
+      "title": "Returer",
+      "policy": {
+        "title": "14 dagars returrätt",
+        "description": "Du har rätt att returnera en produkt beställd från onlinebutiken inom 14 dagar från mottagningen av produkten utan förklaring. Produkten måste vara oanvänd och i originalförpackningen."
+      },
+      "howTo": {
+        "title": "Hur du returnerar en produkt",
+        "step1": {
+          "title": "Meddela retur",
+          "description": "Skicka ett e-postmeddelande till returns@mallandmore.fi eller ring vår kundservice. Ange ditt ordernummer och produkten som ska returneras."
+        },
+        "step2": {
+          "title": "Packa försiktigt",
+          "description": "Packa produkten i originalförpackningen eller i en liknande skyddande förpackning. Bifoga en kopia av inköpskvittot eller orderbekräftelsen."
+        },
+        "step3": {
+          "title": "Skicka paket",
+          "description": "Leverera paketet till närmaste postkontor eller paketautomat. Behåll fraktkvittot som bevis för retur."
+        },
+        "step4": {
+          "title": "Få återbetalning",
+          "description": "Vi behandlar din retur inom 3-5 arbetsdagar. Återbetalning görs till samma konto från vilket betalningen gjordes."
+        }
+      },
+      "address": {
+        "title": "Returadress",
+        "company": "Mall & More Ltd",
+        "department": "Returer",
+        "poBox": "PB 100",
+        "city": "00100 Helsingfors"
+      },
+      "costs": {
+        "title": "Returkostnader",
+        "defective": "Gratis retur för felaktiga eller felbeställda produkter",
+        "over100": "Gratis retur för beställningar över 100 €",
+        "other": "Övriga returer: kund betalar returkostnader (ca 5-10 €)"
+      },
+      "exchange": {
+        "title": "Utbyt produkt",
+        "description": "Om du vill byta en produkt mot en annan rekommenderar vi att du returnerar produkten och gör en ny beställning i onlinebutiken. På så sätt är du säker på att produkten du vill ha är tillgänglig och du får den snabbt."
+      },
+      "exceptions": {
+        "title": "Begränsningar för returrätt",
+        "description": "Returrätten gäller inte följande produkter:",
+        "hygiene": "Hygienprodukter som öppnats",
+        "custom": "Anpassade eller specialbeställda produkter",
+        "sealed": "Förseglade produkter som öppnats (t.ex. programvara)",
+        "perishable": "Lättfördärvlig mat"
+      },
+      "contact": {
+        "title": "Behöver du hjälp med retur?",
+        "description": "Vår kundservice hjälper gärna till med alla returfrågor.",
+        "email": "Skicka e-post",
+        "phone": "Ring oss"
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "subtitle": "Hitta svar på vanliga frågor. Om du inte hittar det du letar efter, kontakta vår kundservice.",
+      "ordering": {
+        "title": "Beställning",
+        "howToOrder": {
+          "q": "Hur gör jag en beställning?",
+          "a": "Lägg dina önskade produkter i varukorgen och gå till kassan. Fyll i leverans- och betalningsinformation och bekräfta beställningen. Du får en orderbekräftelse via e-post."
+        },
+        "changeOrder": {
+          "q": "Kan jag ändra min beställning efter att jag gjort den?",
+          "a": "Om beställningen inte har lämnat vårt lager kan vi göra ändringar. Kontakta vår kundservice så snart som möjligt efter att du gjort beställningen."
+        },
+        "cancelOrder": {
+          "q": "Hur kan jag avbryta min beställning?",
+          "a": "Du kan avbryta din beställning kostnadsfritt innan den skickas. Kontakta vår kundservice via e-post eller telefon."
+        }
+      },
+      "payment": {
+        "title": "Betalning",
+        "methods": {
+          "q": "Vilka betalningsmetoder kan jag använda?",
+          "a": "Vi accepterar alla vanliga bank- och kreditkort (Visa, Mastercard, American Express), onlinebetalningar och faktura för företag."
+        },
+        "secure": {
+          "q": "Är betalningen säker?",
+          "a": "Ja. Vi använder SSL-kryptering och alla betalningstransaktioner behandlas säkert genom vår betalningsleverantör. Vi lagrar inte dina kreditkortsuppgifter."
+        },
+        "when": {
+          "q": "När sker debiteringen?",
+          "a": "För kortköp sker debiteringen omedelbar efter orderbekräftelsen. För faktura är betalningsperioden 14 dagar."
+        }
+      },
+      "delivery": {
+        "title": "Leverans",
+        "time": {
+          "q": "Hur lång tid tar leveransen?",
+          "a": "Normalt 1-3 arbetsdagar för varor i lager. Leveranstid för beställningsvaror är 5-10 arbetsdagar. Beräknad leveranstid visas på produktsidan."
+        },
+        "cost": {
+          "q": "Hur mycket kostar leveransen?",
+          "a": "Till paketautomat 3,90 €, hemleverans 5,90 €. Beställningar över 100 € levereras gratis till paketautomat."
+        },
+        "track": {
+          "q": "Kan jag spåra min försändelse?",
+          "a": "Ja. Du får en spårningskod via e-post så snart din beställning lämnar vårt lager. Du kan spåra försändelsen i realtid."
+        }
+      },
+      "returns": {
+        "title": "Returer",
+        "howTo": {
+          "q": "Hur kan jag returnera en produkt?",
+          "a": "Du har 14 dagars returrätt. Meddela kundservicen om returen, packa produkten i originalförpackningen och skicka den till vår returadress."
+        },
+        "costs": {
+          "q": "Vem betalar returkostnaderna?",
+          "a": "Returer av felaktiga eller felbeställda produkter är gratis. I andra fall betalar kunden returkostnaderna (ca 5-10 €). Beställningar över 100 €: gratis retur."
+        },
+        "refund": {
+          "q": "När får jag mina pengar tillbaka?",
+          "a": "Vi behandlar returen inom 3-5 arbetsdagar. Återbetalning görs till samma konto från vilket betalningen gjordes. Bankens behandlingstid är 2-5 arbetsdagar."
+        }
+      },
+      "products": {
+        "title": "Produkter och garanti",
+        "warranty": {
+          "q": "Har produkterna garanti?",
+          "a": "Alla våra produkter har minst 12 månaders garanti. Många tillverkare erbjuder längre garanti. Garantivillkoren anges på produktsidan."
+        },
+        "defective": {
+          "q": "Vad gör jag om en produkt är defekt?",
+          "a": "Kontakta vår kundservice. Vi behandlar klagomål snabbt och levererar en ny produkt eller återbetalar full betalning."
+        },
+        "genuine": {
+          "q": "Är produkterna äkta?",
+          "a": "Ja. Alla våra produkter är äkta och vi hämtar dem direkt från tillverkare eller auktoriserade importörer."
+        }
+      },
+      "account": {
+        "title": "Kundkonto",
+        "need": {
+          "q": "Behöver jag ett användarkonto för att göra en beställning?",
+          "a": "Nej. Du kan också göra en beställning som gäst. Ett användarkonto gör det dock lättare att spåra beställningar och snabbar upp kassan."
+        },
+        "create": {
+          "q": "Hur skapar jag ett användarkonto?",
+          "a": "Klicka på 'Registrera'-knappen i övre hörnet och fyll i den information som krävs. Du får en bekräftelselänk via e-post."
+        },
+        "forgot": {
+          "q": "Jag glömde mitt lösenord. Vad bör jag göra?",
+          "a": "Klicka på länken 'Glömt lösenord?' på inloggningssidan. Vi skickar instruktioner för att återställa lösenordet till din e-post."
+        }
+      },
+      "notFound": {
+        "title": "Hittade du inte något svar?",
+        "description": "Vår kundservice är tillgänglig på vardagar 9-17",
+        "contact": "Kontakta oss",
+        "phone": "+358 20 123 4567"
+      }
+    },
+    "about": {
+      "title": "Om oss",
+      "subtitle": "Kvalitetsprodukter, pålitlig service sedan 2010",
+      "story": {
+        "title": "Vår historia",
+        "p1": "Mall & More grundades 2010 med ett enkelt uppdrag: att göra kvalitetsprodukter tillgängliga för alla. Från ett litet lager i Helsingfors har vi växt till en av Finlands ledande webbutiker.",
+        "p2": "I dag betjänar vi hundratusentals nöjda kunder och samarbetar med tusentals leverantörer för att erbjuda dig det bästa utbudet av produkter till konkurrenskraftiga priser."
+      },
+      "values": {
+        "title": "Våra värden",
+        "quality": {
+          "title": "Kvalitet",
+          "description": "Vi väljer produkter noggrant från pålitliga leverantörer för att säkerställa högsta kvalitetsstandard."
+        },
+        "service": {
+          "title": "Kundservice",
+          "description": "Din tillfredsställelse är vår prioritet. Vårt dedikerade team är tillgängligt för att hjälpa dig på vardagar."
+        },
+        "price": {
+          "title": "Bästa priser",
+          "description": "Vi arbetar direkt med leverantörer för att erbjuda konkurrenskraftiga priser utan att kompromissa med kvaliteten."
+        },
+        "sustainability": {
+          "title": "Hållbarhet",
+          "description": "Vi är engagerade i miljöansvarsfull verksamhet och hållbara affärsmetoder."
+        }
+      },
+      "stats": {
+        "title": "Siffror",
+        "customers": "{count}+ kunder",
+        "products": "{count}+ produkter",
+        "orders": "{count}+ beställningar levererade",
+        "satisfaction": "{count}% tillfredsställelsegard"
+      },
+      "team": {
+        "title": "Vårt team",
+        "description": "Vi har ett passionerat team av professionella dedikerade till att ge den bästa shoppingupplevelsen. Från kundservice till logistik spelar varje teammedlem en viktig roll i vår framgång."
+      },
+      "sustainability": {
+        "title": "Hållbarhet",
+        "description": "Miljöansvar är viktigt för oss. Vi minimerar avfall, använder miljövänlig förpackning och stöder initiativ för förnybar energi. Vi samarbetar med leverantörer som delar vårt engagemang för hållbarhet."
+      }
+    },
+    "careers": {
+      "title": "Karriärer på Mall & More",
+      "subtitle": "Gå med i vårt växande team",
+      "why": {
+        "title": "Varför gå med i Mall & More?",
+        "description": "Vi letar efter talangfulla individer som är passionerade om att leverera utmärkt kundservice och innovativa lösningar. Om du är spänning på att arbeta inom e-handel och vill vara del av ett dynamiskt team skulle vi älska att höra från dig.",
+        "benefits": "Konkurrenskraftig lön, flexibla arbetstider, möjligheter till professionell utveckling och en stödjande arbetsmiljö."
+      },
+      "positions": {
+        "title": "Öppna positioner",
+        "noPositions": "För närvarande finns det inga öppna positioner. Kom tillbaka snart!",
+        "customerService": {
+          "title": "Kundtjänstrepresentant",
+          "location": "Helsingfors",
+          "description": "Hjälpa våra kunder med frågor, beställningar och returer. Måste vara flytande i finska och engelska."
+        },
+        "logistics": {
+          "title": "Logistikkoordinator",
+          "location": "Helsingfors",
+          "description": "Hantera lageroperationer, orderuppfyllelse och fraktlogistik."
+        },
+        "developer": {
+          "title": "Full Stack-utvecklare",
+          "location": "Helsingfors / Distans",
+          "description": "Hjälp oss bygga nästa generation av vår e-handelsplattform med modern webbteknik."
+        }
+      },
+      "process": {
+        "title": "Ansökningsprocess",
+        "step1": {
+          "title": "1. Skicka in din ansökan",
+          "description": "Skicka ditt CV och ett motivationsbrev till careers@mallandmore.fi"
+        },
+        "step2": {
+          "title": "2. Första granskning",
+          "description": "Vi granskar ansökningar och kontaktar lämpliga kandidater för intervju."
+        },
+        "step3": {
+          "title": "3. Intervju",
+          "description": "Delta i en eller flera intervjuomgångar för att diskutera din kvalifikation och erfarenhet."
+        },
+        "step4": {
+          "title": "4. Erbjudande",
+          "description": "Om du väljs ut kommer vi att ge dig ett erbjudande om att gå med i vårt team."
+        }
+      },
+      "contact": {
+        "title": "Intresserad?",
+        "description": "Skicka din ansökan till:",
+        "email": "careers@mallandmore.fi"
+      }
+    },
+    "press": {
+      "title": "Press",
+      "subtitle": "Senaste nyheter och mediainformation",
+      "media": {
+        "title": "Mediakontakt",
+        "name": "Pressrelationer",
+        "email": "press@mallandmore.fi",
+        "phone": "+358 20 123 4567",
+        "description": "För mediafrågor, intervjuer och pressmaterial kontaktar du vår presskontor."
+      },
+      "releases": {
+        "title": "Pressmeddelanden",
+        "noReleases": "Inga pressmeddelanden tillgängliga för närvarande.",
+        "date": "Publicerat: {date}"
+      },
+      "assets": {
+        "title": "Varumärkesresurser",
+        "description": "Ladda ner våra logotyper, varumärkesriktlinjer och produktbilder för mediakänning.",
+        "logo": "Logotyppaket",
+        "guidelines": "Varumärkesriktlinjer",
+        "images": "Produktbilder"
+      },
+      "facts": {
+        "title": "Snabba fakta",
+        "founded": "Grundad: 2010",
+        "headquarters": "Huvudkontor: Helsingfors, Finland",
+        "employees": "Team: 50+ anställda",
+        "languages": "Språk: finska, svenska, engelska",
+        "countries": "Leverans: I hela Finland",
+        "customers": "Kunder: 300 000+",
+        "products": "Produkter: 50 000+",
+        "dailyOrders": "Dagliga beställningar: 500+"
+      }
+    },
+    "terms": {
+      "title": "Användarvillkor",
+      "lastUpdated": "Senast uppdaterad: {date}",
+      "agreement": {
+        "title": "Avtal",
+        "description": "Dessa användarvillkor utgör ett bindande avtal mellan dig ('Användare' eller 'Kund') och Mall & More Ltd ('Företag'). Genom att få åtkomst till och använda vår webbplats och tjänster godtar du att vara bunden av dessa villkor."
+      },
+      "usage": {
+        "title": "Acceptabel användning",
+        "description": "Du samtycker till att inte använda webbplatsen för något olagligt syfte eller på ett sätt som bryter mot dessa villkor. Förbjudet beteende inkluderar:",
+        "item1": "Trakassering eller orsakar obehag för någon person",
+        "item2": "Störa det normala flödet av dialog på vår webbplats",
+        "item3": "Försöka få obehörig åtkomst till våra system",
+        "item4": "Överföringar av obscent eller stötande innehål",
+        "item5": "Störa det normala flödet av dialog på vår webbplats"
+      },
+      "intellectualProperty": {
+        "title": "Immateriella rättigheter",
+        "description": "Allt innehål på denna webbplats, inklusive text, grafik, logotyper och bilder, är egendom av Mall & More Ltd eller dess innehållsleverantörer och är skyddat av internationell upphovsrättslag."
+      },
+      "limitation": {
+        "title": "Begränsning av ansvar",
+        "description": "Till den fullas omfattning som tillåts enligt lag kommer Mall & More inte att vara ansvarigt för några indirekta, tillfälliga, speciella, följde- eller straffskador som uppstår från din användning av eller oförmåga att använda webbplatsen eller tjänsterna."
+      },
+      "disclaimer": {
+        "title": "Ansvarsbegränsning",
+        "description": "Webbplatsen och dess innehål tillhandahålls på en 'som den är' basis utan någon form av garantier. Vi garanterar inte riktigheten, fullständigheten eller användbarheten av någon information på vår webbplats."
+      }
+    },
+    "privacy": {
+      "title": "Integritetspolicy",
+      "lastUpdated": "Senast uppdaterad: {date}",
+      "intro": {
+        "title": "Din integritet är viktig för oss",
+        "description": "Mall & More Ltd ('vi', 'oss' eller 'vår') driver webbplatsen. Den här sidan informerar dig om vår policy angående insamling, användning och utlämnande av personlig data när du använder vår webbplats och de val du har i samband med dessa data."
+      },
+      "collection": {
+        "title": "Information vi samlar in",
+        "personal": {
+          "title": "Personlig information",
+          "description": "När du skapar ett konto eller gör en beställning samlar vi in information som ditt namn, e-postadress, telefonnummer och fakturerings-/leveransadress."
+        },
+        "payment": {
+          "title": "Betalningsinformation",
+          "description": "Vi lagrar inte betalningskortsuppgifter. Betalningsinformation behandlas säkert genom vår betalningsleverantör."
+        },
+        "usage": {
+          "title": "Användningsdata",
+          "description": "Vi samlar automatiskt in information om din interaktion med vår webbplats, inklusive IP-adress, webbläsartyp, besökta sidor och tid som tillbringats på webbplatsen."
+        },
+        "cookies": {
+          "title": "Kakor",
+          "description": "Vi använder kakor och liknande spårningsteknologier för att spåra aktivitet på vår webbplats och förbättra din upplevelse."
+        }
+      },
+      "use": {
+        "title": "Hur vi använder din information",
+        "item1": "Att tillhandahålla och underhålla vår tjänst",
+        "item2": "Att meddela dig om ändringar av vår tjänst",
+        "item3": "Att behandla beställningar och skicka relaterad information",
+        "item4": "Att ge kundstöd",
+        "item5": "Att samla in analys eller värdefull information för att förbättra vår tjänst",
+        "item6": "Att övervaka användningen av vår tjänst"
+      },
+      "gdpr": {
+        "title": "GDPR-överensstämmelse",
+        "description": "Vi följer den allmänna dataskyddsförordningen (GDPR). Du har rätt att få tillgång till, korrigera eller radera dina personuppgifter. Du har också rätt att begränsa behandlingen eller invända mot behandlingen av dina data."
+      },
+      "retention": {
+        "title": "Databevarande",
+        "description": "Vi lagrar personuppgifter så länge det är nödvändigt för att tillhandahålla våra tjänster och uppfylla de syften som anges i denna policy, om inte en längre lagringsperiod krävs enligt lag."
+      },
+      "contact": {
+        "title": "Kontakta oss",
+        "description": "Om du har frågor om denna integritetspolicy, kontakta:",
+        "email": "privacy@mallandmore.fi"
+      }
+    },
+    "cookies": {
+      "title": "Kakpolicy",
+      "lastUpdated": "Senast uppdaterad: {date}",
+      "intro": {
+        "title": "Vi använder kakor",
+        "description": "Mall & More använder kakor och liknande teknologier för att förbättra din webbläsarupplevelse, personalisera innehål och analysera webbtrafik."
+      },
+      "types": {
+        "title": "Typer av kakor",
+        "essential": {
+          "title": "Väsentliga kakor",
+          "description": "Dessa kakor är nödvändiga för att webbplatsen ska fungera korrekt. De möjliggör kärnfunktionalitet som säkerhet, användarautentisering och överensstämmelse med juridiska krav."
+        },
+        "performance": {
+          "title": "Prestandakakor",
+          "description": "Dessa kakor samlar in information om hur du använder vår webbplats, till exempel vilka sidor du besöker. De hjälper oss att förbättra webbplatsens prestanda och användarupplevelse."
+        },
+        "functional": {
+          "title": "Funktionella kakor",
+          "description": "Dessa kakor gör att webbplatsen kan komma ihåg dina val, till exempel din språkinställning eller inloggningsinformation, för att ge en mer personaliserad upplevelse."
+        },
+        "marketing": {
+          "title": "Marknadsföringskakor",
+          "description": "Dessa kakor används för att spåra din aktivitet på webbplatser för att visa dig riktade annonser som är relevanta för dina intressen."
+        }
+      },
+      "preferences": {
+        "title": "Kakpreferenser",
+        "description": "Du kan kontrollera kakor genom dina webbläsarinställningar. De flesta webbläsare tillåter dig att vägra kakor eller varnar när kakor skickas. Observera att inaktivering av kakor kan påverka funktionaliteten på vår webbplats."
+      },
+      "thirdParty": {
+        "title": "Kakor från tredje part",
+        "description": "Vi arbetar med tredjepartstjänster (såsom analys- och annonspartner) som kan ställa in sina egna kakor på din enhet."
+      },
+      "contact": {
+        "title": "Frågor om vår kakpolicy?",
+        "description": "Om du har frågor om vår kakpolicy, kontakta:",
+        "email": "privacy@mallandmore.fi"
+      }
+    }
+  },
+  "cart": {
+    "title": "Varukorg",
+    "empty": "Din varukorg är tom",
+    "continueShopping": "Fortsätt handla",
+    "subtotal": "Delsumma",
+    "total": "Totalt",
+    "proceedToCheckout": "Gå till kassan",
+    "remove": "Ta bort",
+    "quantity": "Antal",
+    "addedToCart": "Tillagd i varukorgen!",
+    "outOfStock": "Inte tillräckligt i lager",
+    "price": "Pris",
+    "product": "Produkt",
+    "lineTotal": "Totalt",
+    "loginRequired": "Logga in för att se din varukorg.",
+    "loginButton": "Logga in"
+  },
+  "profile": {
+    "title": "Min profil",
+    "personalInfo": "Personuppgifter",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "phone": "Telefon",
+    "email": "E-post",
+    "language": "Språk",
+    "saveChanges": "Spara ändringar",
+    "saved": "Profilen uppdaterad",
+    "changePassword": "Byt lösenord",
+    "currentPassword": "Nuvarande lösenord",
+    "newPassword": "Nytt lösenord",
+    "confirmPassword": "Bekräfta lösenord",
+    "passwordChanged": "Lösenordet har ändrats",
+    "passwordMismatch": "Lösenorden matchar inte",
+    "manageAddresses": "Hantera adresser",
+    "orderHistory": "Orderhistorik"
+  },
+  "checkout": {
+    "title": "Kassa",
+    "shipping": "Leverans",
+    "review": "Granska och betala",
+    "selectAddress": "Välj leveransadress",
+    "noAddresses": "Inga sparade adresser. Lägg till en först.",
+    "continue": "Fortsätt",
+    "shippingAddress": "Leveransadress",
+    "orderItems": "Orderartiklar",
+    "orderSummary": "Ordersammanfattning",
+    "notes": "Orderanteckningar",
+    "notesPlaceholder": "Speciella instruktioner för din beställning...",
+    "placeOrder": "Lägg beställning",
+    "thankYou": "Tack för din beställning!",
+    "orderPlaced": "Din beställning har lagts framgångsrikt.",
+    "viewOrder": "Visa orderdetaljer",
+    "tax": "Moms",
+    "shipping_label": "Frakt",
+    "free": "Gratis",
+    "discount": "Rabatt",
+    "freeShippingNote": "Fri frakt på beställningar över 100 €",
+    "coupon": "Rabattkod",
+    "couponPlaceholder": "Ange rabattkod",
+    "applyCoupon": "Använd",
+    "freeShippingCoupon": "Fri frakt (kupong)"
+  },
+  "orders": {
+    "title": "Orderhistorik",
+    "order": "Order",
+    "items": "Artiklar",
+    "details": "Orderdetaljer",
+    "date": "Datum",
+    "payment": "Betalning",
+    "paymentStatus": "Betalningsstatus",
+    "backToOrders": "Tillbaka till ordrar",
+    "backToProfile": "Tillbaka till profil",
+    "noOrders": "Inga ordrar ännu"
+  },
+  "admin": {
+    "dashboard": "Administratörspanel",
+    "products": "Produkter",
+    "orders": "Ordrar",
+    "revenue": "Senaste intäkter",
+    "manageProducts": "Hantera produkter",
+    "manageOrders": "Hantera ordrar",
+    "viewStore": "Visa butik",
+    "recentOrders": "Senaste ordrar",
+    "noOrders": "Inga ordrar ännu",
+    "backToDashboard": "Tillbaka till panelen",
+    "inventory": "Lager"
+  },
+  "addresses": {
+    "title": "Mina adresser",
+    "addNew": "Lägg till ny adress",
+    "edit": "Redigera",
+    "delete": "Ta bort",
+    "deleteConfirm": "Är du säker på att du vill ta bort denna adress?",
+    "fullName": "Fullständigt namn",
+    "phone": "Telefon",
+    "addressLine1": "Adressrad 1",
+    "addressLine2": "Adressrad 2",
+    "city": "Stad",
+    "postalCode": "Postnummer",
+    "country": "Land",
+    "defaultShipping": "Standardleveransadress",
+    "save": "Spara adress",
+    "cancel": "Avbryt",
+    "saved": "Adressen sparad",
+    "deleted": "Adressen borttagen"
+  },
+  "reviews": {
+    "title": "Omdömen",
+    "writeReview": "Skriv ett omdöme",
+    "submitReview": "Skicka omdöme",
+    "noReviews": "Inga omdömen ännu",
+    "beFirst": "Bli den första att recensera denna produkt!",
+    "loading": "Laddar omdömen...",
+    "verifiedPurchase": "Verifierat köp",
+    "helpful": "{count} personer tyckte detta var användbart",
+    "loginRequired": "Logga in för att skriva ett omdöme",
+    "stars": "stjärnor",
+    "rating": "Betyg",
+    "reviewTitle": "Titel",
+    "reviewComment": "Omdöme",
+    "reviewSubmitted": "Omdöme skickat!",
+    "page": "Sida {current} / {total}"
+  },
+  "wishlist": {
+    "title": "Min önskelista",
+    "empty": "Din önskelista är tom",
+    "browseProducts": "Bläddra bland produkter",
+    "addToCart": "Lägg i varukorg",
+    "outOfStock": "Slut i lager",
+    "removeFromWishlist": "Ta bort från önskelistan"
+  },
+  "deals": {
+    "pageTitle": "Erbjudanden",
+    "onSale": "{count} produkter på rea",
+    "featuredTitle": "Utvalda produkter",
+    "featuredCount": "{count} utvalda",
+    "noDeals": "Inga erbjudanden eller utvalda produkter just nu."
+  },
+  "tracking": {
+    "title": "Spåra din beställning",
+    "subtitle": "Ange ordernummer och e-post för att kontrollera status.",
+    "orderNumber": "Ordernummer",
+    "email": "E-post",
+    "search": "Spåra order",
+    "searching": "Söker...",
+    "notFound": "Order hittades inte.",
+    "items": "Artiklar",
+    "backToStore": "Tillbaka till butiken",
+    "cancelled": "Denna order har avbrutits.",
+    "trackingNumber": "Spårningsnummer"
+  }
+}

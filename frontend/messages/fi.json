@@ -1,0 +1,839 @@
+{
+  "common": {
+    "loading": "Ladataan...",
+    "error": "Virhe",
+    "search": "Hae",
+    "searchPlaceholder": "Hae tuotteita...",
+    "cart": "Ostoskori",
+    "account": "Tili",
+    "login": "Kirjaudu sisään",
+    "logout": "Kirjaudu ulos",
+    "register": "Rekisteröidy",
+    "cancel": "Peruuta",
+    "save": "Tallenna",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "add": "Lisää",
+    "remove": "Poista",
+    "yes": "Kyllä",
+    "no": "Ei",
+    "back": "Takaisin",
+    "next": "Seuraava",
+    "previous": "Edellinen",
+    "close": "Sulje",
+    "viewAll": "Näytä kaikki",
+    "learnMore": "Lue lisää",
+    "price": "Hinta",
+    "quantity": "Määrä",
+    "total": "Yhteensä",
+    "subtotal": "Välisumma",
+    "hello": "Hei",
+    "loginRequired": "Kirjaudu sisään"
+  },
+  "serviceBar": {
+    "fastDelivery": {
+      "title": "Nopea toimitus",
+      "subtitle": "Toimitus 1-3 päivää"
+    },
+    "securePayment": {
+      "title": "Turvallinen maksu",
+      "subtitle": "Kaikki maksutavat"
+    },
+    "returns": {
+      "title": "14 päivän palautusoikeus",
+      "subtitle": "Ilmainen palautus"
+    },
+    "customerService": {
+      "title": "Asiakaspalvelu",
+      "subtitle": "Apua 7 päivää viikossa"
+    }
+  },
+  "deliveryInfo": {
+    "stock": {
+      "inStock": "Varastossa",
+      "outOfStock": "Ei varastossa",
+      "fastDelivery": "Nopea toimitus",
+      "availableLater": "Saatavilla myöhemmin"
+    },
+    "delivery": {
+      "title": "Toimitusaika"
+    },
+    "warranty": {
+      "title": "Takuu",
+      "year": "vuosi",
+      "years": "vuotta",
+      "months": "kuukautta"
+    },
+    "returnPolicy": {
+      "title": "Palautusoikeus",
+      "subtitle": "14 päivän palautusoikeus"
+    }
+  },
+  "nav": {
+    "home": "Etusivu",
+    "products": "Tuotteet",
+    "categories": "Tuoteryhmät",
+    "deals": "Tarjoukset",
+    "about": "Tietoa",
+    "contact": "Yhteystiedot",
+    "viewAll": "Katso kaikki",
+    "viewAllCategories": "Näytä kaikki tuoteryhmät",
+    "trackOrder": "Seuraa tilausta",
+    "adminPanel": "Hallintapaneeli",
+    "myOrders": "Tilaukseni"
+  },
+  "home": {
+    "hero": {
+      "title": "Tervetuloa - Mall & More",
+      "subtitle": "Laadukkaat tuotteet - Nopea toimitus - Parhaat hinnat",
+      "browseProducts": "Selaa tuotteita",
+      "viewCategories": "Kategoriat"
+    },
+    "deals": {
+      "title": "Tarjoukset",
+      "viewAll": "Näytä kaikki"
+    },
+    "featured": {
+      "title": "Suositellut tuotteet",
+      "viewAll": "Näytä kaikki"
+    },
+    "systemStatus": {
+      "title": "Järjestelmän tila",
+      "backendApi": "Backend API",
+      "healthy": "healthy",
+      "disconnected": "disconnected"
+    },
+    "popularCategories": "Suosituimmat tuoteryhmät",
+    "viewAllCategories": "Näytä kaikki tuoteryhmät"
+  },
+  "products": {
+    "title": "Tuotteet",
+    "loading": "Ladataan tuotteita...",
+    "noProducts": "Ei tuotteita",
+    "searchResults": "Hakutulokset haulle:",
+    "filteredByCategory": "Suodatettu kategorian mukaan",
+    "sortBy": "Järjestä:",
+    "sortOptions": {
+      "popular": "Suosituin",
+      "priceLowToHigh": "Hinta: Halvin ensin",
+      "priceHighToLow": "Hinta: Kallein ensin",
+      "newest": "Uusin ensin"
+    },
+    "deal": "TARJOUS",
+    "featured": "SUOSITELTU",
+    "outOfStock": "LOPPUUNMYYTY",
+    "inStock": "Varastossa ({count} kpl)",
+    "addToCart": "Lisää ostoskoriin",
+    "addToWishlist": "Lisää toivelistalle",
+    "savePercent": "Säästä {percent}%",
+    "notFound": "Tuotetta ei löytynyt",
+    "failedToLoad": "Failed to load product",
+    "searchPlaceholder": "Hae tuotteita nimen, merkin tai kategorian mukaan...",
+    "search": "Hae"
+  },
+  "productDetail": {
+    "breadcrumbs": {
+      "home": "Etusivu",
+      "products": "Tuotteet"
+    },
+    "loading": "Ladataan tuotetta...",
+    "quantity": "Määrä",
+    "specifications": "Tekniset tiedot",
+    "description": "Tuotekuvaus",
+    "noImageAvailable": "Ei kuvaa saatavilla",
+    "brand": "Tuotemerkki",
+    "recentlyViewed": "Viimeksi katsotut",
+    "onlyLeft": "Vain {count} jäljellä"
+  },
+  "reviews": {
+    "title": "Arvostelut",
+    "writeReview": "Kirjoita arvostelu",
+    "submitReview": "Lähetä arvostelu",
+    "noReviews": "Ei arvosteluja vielä",
+    "beFirst": "Ole ensimmäinen, joka arvioi tämän tuotteen!",
+    "loading": "Ladataan arvosteluja...",
+    "verifiedPurchase": "Varmennettu ostos",
+    "helpful": "{count} henkilöä piti tästä hyödyllisenä",
+    "loginRequired": "Kirjaudu sisään kirjoittaaksesi arvostelun",
+    "stars": "tähteä",
+    "rating": "Arvosana",
+    "reviewTitle": "Otsikko",
+    "reviewComment": "Arvostelu",
+    "reviewSubmitted": "Arvostelu lähetetty!",
+    "page": "Sivu {current} / {total}"
+  },
+  "wishlist": {
+    "title": "Toivelista",
+    "empty": "Toivelistasi on tyhjä",
+    "browseProducts": "Selaa tuotteita",
+    "addToCart": "Lisää ostoskoriin",
+    "outOfStock": "Loppu varastosta",
+    "removeFromWishlist": "Poista toivelistalta"
+  },
+  "deals": {
+    "pageTitle": "Tarjoukset",
+    "onSale": "{count} tuotetta alennuksessa",
+    "featuredTitle": "Suositellut tuotteet",
+    "featuredCount": "{count} suositeltua",
+    "noDeals": "Ei tarjouksia tai suositeltuja tuotteita tällä hetkellä."
+  },
+  "tracking": {
+    "title": "Seuraa tilaustasi",
+    "subtitle": "Syötä tilausnumero ja sähköposti.",
+    "orderNumber": "Tilausnumero",
+    "email": "Sähköposti",
+    "search": "Seuraa tilausta",
+    "searching": "Haetaan...",
+    "notFound": "Tilausta ei löytynyt.",
+    "items": "Tuotteet",
+    "backToStore": "Takaisin kauppaan",
+    "cancelled": "Tämä tilaus on peruutettu.",
+    "trackingNumber": "Seurantanumero"
+  },
+  "categories": {
+    "title": "Kategoriat",
+    "loading": "Ladataan kategorioita...",
+    "noCategories": "Ei kategorioita",
+    "failedToLoad": "Failed to load categories",
+    "subcategories": "{count} alakategoriaa",
+    "products": "{count} tuotetta"
+  },
+  "auth": {
+    "login": {
+      "title": "Kirjaudu sisään",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "submit": "Kirjaudu",
+      "noAccount": "Eikö sinulla ole tiliä?",
+      "registerLink": "Rekisteröidy tästä",
+      "forgotPassword": "Unohditko salasanan?"
+    },
+    "register": {
+      "title": "Luo tili",
+      "name": "Nimi",
+      "email": "Sähköposti",
+      "password": "Salasana",
+      "confirmPassword": "Vahvista salasana",
+      "submit": "Rekisteröidy",
+      "hasAccount": "Onko sinulla jo tili?",
+      "loginLink": "Kirjaudu sisään"
+    }
+  },
+  "footer": {
+    "brandName": "Mall & More",
+    "tagline": "Laadukkaat tuotteet - Nopea toimitus - Kilpailukykyiset hinnat",
+    "customerService": "Asiakaspalvelu",
+    "contact": "Yhteystiedot",
+    "shipping": "Toimitus",
+    "returns": "Palautukset",
+    "faq": "UKK",
+    "company": "Yritys",
+    "about": "Tietoa meistä",
+    "careers": "Työpaikat",
+    "press": "Lehdistö",
+    "legal": "Juridiikka",
+    "terms": "Käyttöehdot",
+    "privacy": "Tietosuoja",
+    "cookies": "Evästeet",
+    "copyright": "© {year} Mall & More. Kaikki oikeudet pidätetään.",
+    "paymentMethods": "Maksutavat:"
+  },
+  "pagination": {
+    "previous": "Edellinen",
+    "next": "Seuraava",
+    "page": "Sivu {current} / {total}"
+  },
+  "errors": {
+    "generic": "Jotain meni pieleen",
+    "notFound": "Sivua ei löytynyt",
+    "unauthorized": "Ei oikeuksia",
+    "serverError": "Palvelinvirhe"
+  },
+  "pages": {
+    "contact": {
+      "title": "Yhteystiedot",
+      "subtitle": "Ota yhteyttä",
+      "phone": {
+        "title": "Puhelinpalvelu",
+        "number": "+358 20 123 4567",
+        "hours": "Ma-Pe 9-17, La 10-15"
+      },
+      "email": {
+        "title": "Sähköposti",
+        "address": "customerservice@mallandmore.fi",
+        "responseTime": "Vastaamme 24 tunnissa"
+      },
+      "address": {
+        "title": "Osoite",
+        "company": "Mall & More Ltd",
+        "street": "Kauppakatu 1",
+        "city": "00100 Helsinki"
+      },
+      "hours": {
+        "title": "Aukioloajat",
+        "weekdays": "Ma-Pe: 9:00 - 20:00",
+        "saturday": "La: 10:00 - 18:00",
+        "sunday": "Su: 12:00 - 18:00"
+      },
+      "form": {
+        "title": "Lähetä viesti",
+        "name": "Nimi",
+        "email": "Sähköposti",
+        "subject": "Aihe",
+        "message": "Viesti",
+        "required": "*",
+        "submit": "Lähetä viesti"
+      }
+    },
+    "shipping": {
+      "title": "Toimitus",
+      "express": {
+        "title": "Pikatoimitukset",
+        "description": "Toimitus seuraavana työpäivänä. Tilaus on tehtävä ennen klo 14.00.",
+        "price": "9.90 € - 14.90 €"
+      },
+      "home": {
+        "title": "Kotiinkuljetus",
+        "description": "Toimitus kotiovellesi 1-3 työpäivän kuluessa. Voit valita toimitusajan.",
+        "price": "5.90 €"
+      },
+      "pickup": {
+        "title": "Nouto pakettiautomaatista",
+        "description": "Nouda tilauksesi lähimmästä pakettiautomaatista 2-4 työpäivän kuluessa.",
+        "price": "3.90 €"
+      },
+      "free": {
+        "title": "Ilmainen toimitus",
+        "description": "Yli 100 € tilauksille ilmainen toimitus pakettiautomaattiin.",
+        "price": "0 € (yli 100 €:n tilaukset)"
+      },
+      "times": {
+        "title": "Toimitusajat",
+        "inStock": "Varastossa olevat tuotteet: 1-3 työpäivää",
+        "order": "Tilauksesta tulevat tuotteet: 5-10 työpäivää",
+        "special": "Erikoistuotteet: erikseen sovittu aikataulu"
+      },
+      "tracking": {
+        "title": "Tilauksen seuranta",
+        "description": "Saat seurantakoodin sähköpostitse heti, kun tilauksesi on lähtenyt varastostamme. Voit seurata lähetystä reaaliajassa kuljetusyrityksen verkkosivuilla."
+      },
+      "areas": {
+        "title": "Toimitusalueet",
+        "description": "Toimitan koko Suomeen. Erityisehdot saattavat koskea:",
+        "ahvenanmaa": "Ahvenanmaa: lisämaksu 15 €",
+        "archipelago": "Saaristo: toimitus järjestetään erikseen",
+        "large": "Suuret tuotteet: toimitus sovitaan erikseen"
+      }
+    },
+    "returns": {
+      "title": "Palautukset",
+      "policy": {
+        "title": "14 päivän palautusoikeus",
+        "description": "Sinulla on oikeus palauttaa verkkokaupasta tilattu tuote 14 päivän kuluessa tuotteen vastaanottamisesta ilman perusteluja. Tuotteen tulee olla käyttämätön ja alkuperäisessä pakkauksessa."
+      },
+      "howTo": {
+        "title": "Kuinka palauttaa tuote",
+        "step1": {
+          "title": "Ilmoita palautuksesta",
+          "description": "Lähetä sähköposti osoitteeseen returns@mallandmore.fi tai soita asiakaspalveluumme. Anna tilausnumerosi ja palautettavan tuotteen tiedot."
+        },
+        "step2": {
+          "title": "Pakkaa huolellisesti",
+          "description": "Pakkaa tuote alkuperäiseen pakkaukseen tai vastaavaan suojaavaan pakkaukseen. Liitä mukaan kopio ostokuitista tai tilausvahvistuksesta."
+        },
+        "step3": {
+          "title": "Lähetä paketti",
+          "description": "Toimita paketti lähimpään postiin tai pakettiautomaattiin. Säilytä lähetyskuitti palautuksen todisteeksi."
+        },
+        "step4": {
+          "title": "Saa palautus",
+          "description": "Käsittelemme palautuksesi 3-5 työpäivän kuluessa. Hyvitys maksetaan takaisin samalle tilille, jolta maksu tehtiin."
+        }
+      },
+      "address": {
+        "title": "Palautusosoite",
+        "company": "Mall & More Ltd",
+        "department": "Palautukset",
+        "poBox": "PL 100",
+        "city": "00100 Helsinki"
+      },
+      "costs": {
+        "title": "Palautuskulut",
+        "defective": "Ilmainen palautus viallisille tai väärille tuotteille",
+        "over100": "Ilmainen palautus yli 100 €:n tilauksille",
+        "other": "Muut palautukset: asiakas maksaa palautuskulut (noin 5-10 €)"
+      },
+      "exchange": {
+        "title": "Tuotteen vaihto",
+        "description": "Jos haluat vaihtaa tuotteen toiseen, suosittelemme palauttamaan tuotteen ja tekemään uuden tilauksen verkkokaupasta. Näin olet varma, että haluamasi tuote on saatavilla ja saat sen nopeasti."
+      },
+      "exceptions": {
+        "title": "Palautusoikeuden rajoitukset",
+        "description": "Palautusoikeus ei koske seuraavia tuotteita:",
+        "hygiene": "Hygieniatuotteet, jotka on avattu",
+        "custom": "Räätälöidyt tai tilaustuotteet",
+        "sealed": "Sinetöidyt tuotteet, jotka on avattu (esim. ohjelmistot)",
+        "perishable": "Pilaantuvat tuotteet"
+      },
+      "contact": {
+        "title": "Tarvitsetko apua palautuksessa?",
+        "description": "Asiakaspalvelumme auttaa mielelleen kaikissa palautukseen liittyvissä kysymyksissä.",
+        "email": "Lähetä sähköposti",
+        "phone": "Soita meille"
+      }
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "subtitle": "Etsi vastauksia yleisiin kysymyksiin. Jos et löydä etsimääsi, ota yhteyttä asiakaspalveluumme.",
+      "ordering": {
+        "title": "Tilaaminen",
+        "howToOrder": {
+          "q": "Kuinka teen tilauksen?",
+          "a": "Lisää haluamasi tuotteet ostoskoriin ja siirry kassalle. Täytä toimitus- ja maksutiedot ja vahvista tilaus. Saat tilausvahvistuksen sähköpostitse."
+        },
+        "changeOrder": {
+          "q": "Voinko muuttaa tilaukseni tekemisen jälkeen?",
+          "a": "Jos tilaus ei ole vielä lähtenyt varastostamme, voimme tehdä muutoksia. Ota yhteyttä asiakaspalveluumme mahdollisimman pian tilauksen tekemisen jälkeen."
+        },
+        "cancelOrder": {
+          "q": "Kuinka voin peruuttaa tilaukseni?",
+          "a": "Voit peruuttaa tilauksesi ilmaiseksi ennen kuin se on lähtenyt. Ota yhteyttä asiakaspalveluumme sähköpostilla tai puhelimella."
+        }
+      },
+      "payment": {
+        "title": "Maksu",
+        "methods": {
+          "q": "Mitä maksutapoja voin käyttää?",
+          "a": "Hyväksymme kaikki yleiset pankki- ja luottokortit (Visa, Mastercard, American Express), verkkopankkimaksut ja yritysten laskumaksun."
+        },
+        "secure": {
+          "q": "Onko maksu turvallinen?",
+          "a": "Kyllä. Käytämme SSL-salausta ja kaikki maksutapahtumat käsitellään turvallisesti maksuntarjoajamme kautta. Emme tallenna luottokorttitietojasi."
+        },
+        "when": {
+          "q": "Milloin veloitus tapahtuu?",
+          "a": "Korttiostoissa veloitus tapahtuu heti tilausvahvistuksen jälkeen. Laskumaksulla maksun määräaika on 14 päivää."
+        }
+      },
+      "delivery": {
+        "title": "Toimitus",
+        "time": {
+          "q": "Kuinka kauan toimitus kestää?",
+          "a": "Normaalisti 1-3 työpäivää varastossa oleville tuotteille. Tilauksesta saatavien tuotteiden toimittamisaika on 5-10 työpäivää. Arvioitu toimittamisaika näytetään tuotesivulla."
+        },
+        "cost": {
+          "q": "Kuinka paljon toimitus maksaa?",
+          "a": "Pakettiautomaattiin 3.90 €, kotiinkuljetus 5.90 €. Yli 100 € tilaukset toimitetaan ilmaiseksi pakettiautomaattiin."
+        },
+        "track": {
+          "q": "Voinko seurata lähetystäni?",
+          "a": "Kyllä. Saat seurantakoodin sähköpostitse heti, kun tilauksesi lähtee varastostamme. Voit seurata lähetystä reaaliajassa."
+        }
+      },
+      "returns": {
+        "title": "Palautukset",
+        "howTo": {
+          "q": "Kuinka voin palauttaa tuotteen?",
+          "a": "Sinulla on 14 päivän palautusoikeus. Ilmoita palautuksesta asiakaspalveluumme, pakkaa tuote alkuperäiseen pakkaukseen ja lähetä se palautusosoitteessamme."
+        },
+        "costs": {
+          "q": "Kuka maksaa palautuskulut?",
+          "a": "Viallisten tai vääreiden tuotteiden palautus on ilmainen. Muissa tapauksissa asiakas maksaa palautuskulut (noin 5-10 €). Yli 100 €:n tilaukset: ilmainen palautus."
+        },
+        "refund": {
+          "q": "Milloin saan rahani takaisin?",
+          "a": "Käsittelemme palautuksen 3-5 työpäivän kuluessa. Hyvitys maksetaan samalle tilille, jolta maksu tehtiin. Pankin käsittelyaika on 2-5 työpäivää."
+        }
+      },
+      "products": {
+        "title": "Tuotteet ja takuu",
+        "warranty": {
+          "q": "Onko tuotteilla takuu?",
+          "a": "Kaikilla tuotteilla on vähintään 12 kuukauden takuu. Monet valmistajat tarjoavat pidempää takuuta. Takuuehdot näytetään tuotesivulla."
+        },
+        "defective": {
+          "q": "Mitä teen, jos tuote on viallinen?",
+          "a": "Ota yhteyttä asiakaspalveluumme. Käsittelemme valitukset nopeasti ja toimitan uuden tuotteen tai hyvitämme täyden maksun."
+        },
+        "genuine": {
+          "q": "Ovatko tuotteet alkuperäisiä?",
+          "a": "Kyllä. Kaikki tuotteemme ovat alkuperäisiä ja hankimme ne suoraan valmistajilta tai valtuuttavilta maahantuojilta."
+        }
+      },
+      "account": {
+        "title": "Asiakastili",
+        "need": {
+          "q": "Tarvitsenko käyttäjätiliä tilauksen tekemiseen?",
+          "a": "Ei. Voit tehdä tilauksen myös vieraana. Käyttäjätili helpottaa kuitenkin tilausten seuraamista ja nopeuttaa kassalle siirtymistä."
+        },
+        "create": {
+          "q": "Kuinka luon käyttäjätilin?",
+          "a": "Napsauta yläkulmassa olevaa 'Rekisteröidy' -painiketta ja täytä vaaditut tiedot. Saat vahvistuslinkin sähköpostitse."
+        },
+        "forgot": {
+          "q": "Unohdin salasanani. Mitä teen?",
+          "a": "Napsauta kirjautumissivulla olevaa 'Unohditko salasanan?' -linkkiä. Lähetämme salasanan nollausohjeet sähköpostitse."
+        }
+      },
+      "notFound": {
+        "title": "Etkö löytänyt vastausta?",
+        "description": "Asiakaspalvelumme on saatavilla arkisin klo 9-17",
+        "contact": "Ota yhteyttä",
+        "phone": "+358 20 123 4567"
+      }
+    },
+    "about": {
+      "title": "Tietoa meistä",
+      "subtitle": "Laadukkaat tuotteet, luotettava palvelu vuodesta 2010",
+      "story": {
+        "title": "Tarinaamme",
+        "p1": "Mall & More perustettiin vuonna 2010 yksinkertaisella missiolla: tehdä laadukkaat tuotteet kaikkien saataville. Pienestä Helsingin varastosta olemme kasvaneet yhdeksi Suomen johtavista verkkokauppaketjuista.",
+        "p2": "Tänään palvelemme satoja tuhansia tyytyväisiä asiakkaita ja yhteistyössä tuhansia toimittajia tarjotaksemme sinulle parhaan tuotevalikoiman kilpailukykyisillä hinnoilla."
+      },
+      "values": {
+        "title": "Arvomme",
+        "quality": {
+          "title": "Laatu",
+          "description": "Valitsemme tuotteet huolellisesti luotettavilta toimittajilta varmistaaksemme korkeimman laadun."
+        },
+        "service": {
+          "title": "Asiakaspalvelu",
+          "description": "Tyytyväisyytesi on prioriteettimme. Omistautunut tiimimme on käytettävissä arkisin auttamaan sinua."
+        },
+        "price": {
+          "title": "Parhaat hinnat",
+          "description": "Teemme yhteistyötä suoraan toimittajien kanssa tarjotaksemme kilpailukykyisiä hintoja ilman laadusta tinkimistä."
+        },
+        "sustainability": {
+          "title": "Kestävä kehitys",
+          "description": "Sitoudumme ympäristövastuulliseen toimintaan ja kestävään liiketoimintaan."
+        }
+      },
+      "stats": {
+        "title": "Numeroissa",
+        "customers": "{count}+ asiakasta",
+        "products": "{count}+ tuotetta",
+        "orders": "{count}+ tilaus toimitettu",
+        "satisfaction": "{count}% tyytyväisyysaste"
+      },
+      "team": {
+        "title": "Tiimimme",
+        "description": "Meillä on innostunut ammattilaisten tiimi, joka on omistautunut parhaan ostokokemuksen tarjoamiseen. Asiakaspalvelusta logistiikkaan jokainen tiimin jäsen on tärkeä roolissa meille."
+      },
+      "sustainability": {
+        "title": "Kestävä kehitys",
+        "description": "Ympäristövastuullisuus on meille tärkeää. Minimoimme jätteet, käytämme ympäristöystävällistä pakkausta ja tuemme uusiutuvien energialähteiden aloitteita. Yhteistyö tekemme toimittajien kanssa, jotka jakavat sitoutumisemme kestävään kehitykseen."
+      }
+    },
+    "careers": {
+      "title": "Uratarinasi Mall & Moressa",
+      "subtitle": "Liity kasvavaan tiimihimme",
+      "why": {
+        "title": "Miksi liittyä Mall & Moreen?",
+        "description": "Etsimme lahjakkaita ihmisiä, jotka ovat intohimoisia tarjoamaan erinomaisesti asiakaspalvelua ja innovatiivisia ratkaisuja. Jos sinua innostaa e-kaupan parissa työskentely ja haluat olla osa dynaamista tiimiä, haluamme kuulla sinusta.",
+        "benefits": "Kilpailukykyinen palkka, joustavat työajat, ammatillisen kehityksen mahdollisuudet ja tukeava työympäristö."
+      },
+      "positions": {
+        "title": "Avoimet paikat",
+        "noPositions": "Tällä hetkellä ei ole avoimia paikkoja. Tarkista myöhemmin uudelleen!",
+        "customerService": {
+          "title": "Asiakaspalvelun edustaja",
+          "location": "Helsinki",
+          "description": "Auta asiakkaitamme kysymyksissä, tilauksissa ja palautuksissa. Sinulla on oltava sujuva suomen ja englannin kielen taito."
+        },
+        "logistics": {
+          "title": "Logistiikkakoordinaattori",
+          "location": "Helsinki",
+          "description": "Hallitse varaston toimintaa, tilausten täyttämistä ja toimituslogistiikkaa."
+        },
+        "developer": {
+          "title": "Full Stack kehittäjä",
+          "location": "Helsinki / Etätyö",
+          "description": "Auta meitä rakentamaan seuraavan sukupolven e-kauppa-alustaa käyttäen moderneja web-teknologioita."
+        }
+      },
+      "process": {
+        "title": "Hakuprosessi",
+        "step1": {
+          "title": "1. Lähetä hakemuksesi",
+          "description": "Lähetä CV ja saatekirje osoitteeseen careers@mallandmore.fi"
+        },
+        "step2": {
+          "title": "2. Alustava tarkistus",
+          "description": "Tarkistamme hakemukset ja otamme yhteyttä sopiviin hakijoihin haastattelun varalle."
+        },
+        "step3": {
+          "title": "3. Haastattelu",
+          "description": "Osallistu yhteen tai useampaan haastattelukierokseen keskustellaksesi pätevyydestäsi ja kokemuksestasi."
+        },
+        "step4": {
+          "title": "4. Tarjous",
+          "description": "Jos sinut valitaan, tarjoamme sinulle mahdollisuuden liittyä tiimihimme."
+        }
+      },
+      "contact": {
+        "title": "Kiinnostunut?",
+        "description": "Lähetä hakemuksesi osoitteeseen:",
+        "email": "careers@mallandmore.fi"
+      }
+    },
+    "press": {
+      "title": "Lehdistö",
+      "subtitle": "Uusimmat uutiset ja mediamateriaali",
+      "media": {
+        "title": "Median yhteystiedot",
+        "name": "Lehdistösuhteista vastaava",
+        "email": "press@mallandmore.fi",
+        "phone": "+358 20 123 4567",
+        "description": "Mediakysymyksiin, haastatteluihin ja lehdistömateriaaleihin ota yhteyttä lehdistöosastoomme."
+      },
+      "releases": {
+        "title": "Lehdistötiedotteet",
+        "noReleases": "Lehdistötiedotteita ei ole saatavilla tällä hetkellä.",
+        "date": "Julkaistu: {date}"
+      },
+      "assets": {
+        "title": "Brandi-aineistot",
+        "description": "Lataa logot, brandi-ohjeet ja tuotekuvat mediakäyttöä varten.",
+        "logo": "Logopaketti",
+        "guidelines": "Brandi-ohjeet",
+        "images": "Tuotekuvat"
+      },
+      "facts": {
+        "title": "Nopeat faktat",
+        "founded": "Perustettu: 2010",
+        "headquarters": "Pääkonttori: Helsinki, Suomi",
+        "employees": "Tiimi: 50+ työntekijää",
+        "languages": "Kielet: suomi, ruotsi, englanti",
+        "countries": "Toimitusalueet: Koko Suomi",
+        "customers": "Asiakkaat: 300 000+",
+        "products": "Tuotteet: 50 000+",
+        "dailyOrders": "Päivittäiset tilaukset: 500+"
+      }
+    },
+    "terms": {
+      "title": "Käyttöehdot",
+      "lastUpdated": "Päivitetty viimeksi: {date}",
+      "agreement": {
+        "title": "Sopimus",
+        "description": "Nämä käyttöehdot muodostavat sitovan sopimuksen sinun ('käyttäjä' tai 'asiakas') ja Mall & More Ltd:n ('yritys') välillä. Käyttämällä verkkosivustoamme ja palveluitamme hyväksyt näiden ehtojen sitomisen."
+      },
+      "usage": {
+        "title": "Hyväksyttävä käyttö",
+        "description": "Sitoudut olemaan käyttämättä sivustoa mihinkään lainattomaan tarkoitukseen tai tavalla, joka rikkoo näitä ehtoja. Kielletty käyttäytyminen sisältää:",
+        "item1": "Jonkun henkilön häirintä tai ahdistelu",
+        "item2": "Verkkosivustomme normaalin vuorovaikutuksen häiritseminen",
+        "item3": "Yritysten päästä oikeudettomasti meidän järjestelmiin",
+        "item4": "Hävyttömän tai loukkaavan sisällön lähettäminen",
+        "item5": "Verkkosivustomme normaalin vuorovaikutuksen häiritseminen"
+      },
+      "intellectualProperty": {
+        "title": "Tekijänoikeudet",
+        "description": "Kaikki verkkosivustomme sisältö, mukaan lukien tekstit, grafiikat, logot ja kuvat, omistaa Mall & More Ltd tai sen sisällöntoimittajat, ja sitä suojaa kansainvälinen tekijänoikeuslaki."
+      },
+      "limitation": {
+        "title": "Vastuun rajoitus",
+        "description": "Lainsäädännön sallimassa laajuudessa Mall & More ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä, seurauksellisista tai rangaistavista vahingoista, jotka johtuvat sivuston tai palvelun käytöstä tai käytön estämisestä."
+      },
+      "disclaimer": {
+        "title": "Vastuuvapauslauseke",
+        "description": "Verkkosivusto ja sen sisältö toimitetaan 'sellaisenaan' ilman mitään takuita. Emme takaa verkkosivustomme tietojen oikeellisuutta, täydellisyyttä tai hyödyllisyyttä."
+      }
+    },
+    "privacy": {
+      "title": "Tietosuojakäytäntö",
+      "lastUpdated": "Päivitetty viimeksi: {date}",
+      "intro": {
+        "title": "Yksityisyytesi on tärkeää meille",
+        "description": "Mall & More Ltd ('me', 'meille' tai 'meidän') ylläpitää verkkosivustoa. Tämä sivu kertoo käytäntöistämme henkilötietojen keräämisen, käytön ja paljastamisen osalta sekä verkkosivustomme käytön yhteydessä sinulla olevista vaihtoehdoista."
+      },
+      "collection": {
+        "title": "Keräämme tietoja",
+        "personal": {
+          "title": "Henkilötiedot",
+          "description": "Kun luot tilin tai teet tilauksen, keräämme tietoja, kuten nimesi, sähköpostiosoitteesi, puhelinnumerosi, laskutus-/toimitusosoitteesi."
+        },
+        "payment": {
+          "title": "Maksutiedot",
+          "description": "Emme tallenna maksukorttitietoja. Maksutiedot käsitellään turvallisesti maksuntarjoajamme kautta."
+        },
+        "usage": {
+          "title": "Käyttötiedot",
+          "description": "Keräämme automaattisesti tietoja verkkosivustomme käytöstä, mukaan lukien IP-osoite, selaimen tyyppi, vieraillut sivut ja sivuilla käytetty aika."
+        },
+        "cookies": {
+          "title": "Evästeet",
+          "description": "Käytämme evästeitä ja vastaavia seurantatekniikkoja seurataksemme verkkosivustomme toimintaa ja parantaaksemme kokemustasi."
+        }
+      },
+      "use": {
+        "title": "Kuinka käytämme tietojasi",
+        "item1": "Palvelun tarjoamiseksi ja ylläpitämiseksi",
+        "item2": "Ilmoittaaksemme sinulle muutoksia palvelussa",
+        "item3": "Käsitelläksemme tilauksia ja lähettääksemme niihin liittyviä tietoja",
+        "item4": "Tarjotaksemme asiakastukea",
+        "item5": "Kerätäksemme analytiikkaa tai arvokkaita tietoja palvelun parantamiseksi",
+        "item6": "Valvotaksemme palvelun käyttöä"
+      },
+      "gdpr": {
+        "title": "GDPR-vaatimustenmukaisuus",
+        "description": "Noudatamme yleistä tietosuoja-asetusta (GDPR). Sinulla on oikeus päästä käsiksi, korjata tai poistaa henkilötietosi. Sinulla on myös oikeus rajoittaa käsittelyä tai vastustaa tietojesi käsittelyä."
+      },
+      "retention": {
+        "title": "Tietojen säilyttäminen",
+        "description": "Säilytämme henkilötietoja niin kauan kuin on tarpeen palveluidemme tarjoamiseksi ja tämän käytännön mukaisten tarkoitusten täyttämiseksi, ellei laki vaadi pidempää säilyttämisaikaa."
+      },
+      "contact": {
+        "title": "Ota yhteyttä",
+        "description": "Jos sinulla on kysymyksiä tästä tietosuojakäytännöstä, ota yhteyttä:",
+        "email": "privacy@mallandmore.fi"
+      }
+    },
+    "cookies": {
+      "title": "Evästekäytäntö",
+      "lastUpdated": "Päivitetty viimeksi: {date}",
+      "intro": {
+        "title": "Käytämme evästeitä",
+        "description": "Mall & More käyttää evästeitä ja vastaavia teknologioita parantaakseen selauskokemustasi, personoidakseen sisältöä ja analysoidakseen verkkosivuston liikennettä."
+      },
+      "types": {
+        "title": "Evästeiden tyypit",
+        "essential": {
+          "title": "Välttämättömät evästeet",
+          "description": "Nämä evästeet ovat välttämättömiä verkkosivuston asianmukaiselle toiminnalle. Ne mahdollistavat perusominaisuuksia, kuten turvallisuuden, käyttäjän todentamisen ja lakisääteisten vaatimusten noudattamisen."
+        },
+        "performance": {
+          "title": "Suorituskykyyn liittyvät evästeet",
+          "description": "Nämä evästeet keräävät tietoja siitä, miten käytät verkkosivustoamme, kuten mitkä sivut vierailet. Ne auttavat meitä parantamaan verkkosivuston suorituskykyä ja käyttäjäkokemusta."
+        },
+        "functional": {
+          "title": "Toiminnalliset evästeet",
+          "description": "Nämä evästeet mahdollistavat verkkosivuston muistaa valitsemasi valinnat, kuten kielivalintasi tai kirjautumistiedot, tarjotaksemme henkilökohtaisemman kokemuksen."
+        },
+        "marketing": {
+          "title": "Markkinointi-evästeet",
+          "description": "Näitä evästeitä käytetään seurataksemme toimintaasi verkkosivustoilla näyttääksemme sinulle kohdistettuja mainoksia, jotka liittyvät intresseihisi."
+        }
+      },
+      "preferences": {
+        "title": "Evästeiden asetukset",
+        "description": "Voit hallita evästeitä selaimen asetuksien kautta. Useimmat selaimet antavat sinun kieltää evästeet tai varoittavat, kun evästeitä lähetetään. Huomaa, että evästeiden poistaminen käytöstä voi vaikuttaa verkkosivustomme toiminnallisuuteen."
+      },
+      "thirdParty": {
+        "title": "Kolmannen osapuolen evästeet",
+        "description": "Työskentelemme kolmannen osapuolen palveluntarjoajien kanssa (kuten analytiikka- ja mainoskumppanit), jotka voivat asettaa omia evästeitään laitteellesi."
+      },
+      "contact": {
+        "title": "Kysymyksiä evästekäytännöstä?",
+        "description": "Jos sinulla on kysymyksiä evästekäytännöstämme, ota yhteyttä:",
+        "email": "privacy@mallandmore.fi"
+      }
+    }
+  },
+  "cart": {
+    "title": "Ostoskori",
+    "empty": "Ostoskorisi on tyhjä",
+    "continueShopping": "Jatka ostoksia",
+    "subtotal": "Välisumma",
+    "total": "Yhteensä",
+    "proceedToCheckout": "Siirry kassalle",
+    "remove": "Poista",
+    "quantity": "Määrä",
+    "addedToCart": "Lisätty ostoskoriin!",
+    "outOfStock": "Tuotetta ei ole tarpeeksi varastossa",
+    "loginRequired": "Kirjaudu sisään nähdäksesi ostoskorisi.",
+    "price": "Hinta",
+    "product": "Tuote",
+    "lineTotal": "Yhteensä",
+    "loginButton": "Kirjaudu"
+  },
+  "profile": {
+    "title": "Profiilini",
+    "personalInfo": "Henkilötiedot",
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+    "phone": "Puhelin",
+    "email": "Sähköposti",
+    "language": "Kieli",
+    "saveChanges": "Tallenna muutokset",
+    "saved": "Profiili päivitetty",
+    "changePassword": "Vaihda salasana",
+    "currentPassword": "Nykyinen salasana",
+    "newPassword": "Uusi salasana",
+    "confirmPassword": "Vahvista salasana",
+    "passwordChanged": "Salasana vaihdettu",
+    "passwordMismatch": "Salasanat eivät täsmää",
+    "manageAddresses": "Hallinnoi osoitteita",
+    "orderHistory": "Tilaushistoria"
+  },
+  "checkout": {
+    "title": "Kassa",
+    "shipping": "Toimitus",
+    "review": "Tarkista ja maksa",
+    "selectAddress": "Valitse toimitusosoite",
+    "noAddresses": "Ei tallennettuja osoitteita. Lisää osoite ensin.",
+    "continue": "Jatka",
+    "shippingAddress": "Toimitusosoite",
+    "orderItems": "Tilauksen tuotteet",
+    "orderSummary": "Tilauksen yhteenveto",
+    "notes": "Tilauksen huomautukset",
+    "notesPlaceholder": "Erityistoiveita tilauksellesi...",
+    "placeOrder": "Tee tilaus",
+    "thankYou": "Kiitos tilauksestasi!",
+    "orderPlaced": "Tilauksesi on tehty onnistuneesti.",
+    "viewOrder": "Näytä tilauksen tiedot",
+    "tax": "Vero",
+    "shipping_label": "Toimitus",
+    "free": "Ilmainen",
+    "discount": "Alennus",
+    "freeShippingNote": "Ilmainen toimitus yli 100 € tilauksiin",
+    "coupon": "Alennuskoodi",
+    "couponPlaceholder": "Syötä alennuskoodi",
+    "applyCoupon": "Käytä",
+    "freeShippingCoupon": "Ilmainen toimitus (kuponki)"
+  },
+  "orders": {
+    "title": "Tilaushistoria",
+    "order": "Tilaus",
+    "items": "Tuotteet",
+    "details": "Tilauksen tiedot",
+    "date": "Päivämäärä",
+    "payment": "Maksu",
+    "paymentStatus": "Maksun tila",
+    "backToOrders": "Takaisin tilauksiin",
+    "backToProfile": "Takaisin profiiliin",
+    "noOrders": "Ei tilauksia vielä"
+  },
+  "admin": {
+    "dashboard": "Hallintapaneeli",
+    "products": "Tuotteet",
+    "orders": "Tilaukset",
+    "revenue": "Viimeaikaiset tulot",
+    "manageProducts": "Hallinnoi tuotteita",
+    "manageOrders": "Hallinnoi tilauksia",
+    "viewStore": "Näytä kauppa",
+    "recentOrders": "Viimeaikaiset tilaukset",
+    "noOrders": "Ei tilauksia vielä",
+    "backToDashboard": "Takaisin hallintapaneeliin",
+    "inventory": "Varasto"
+  },
+  "addresses": {
+    "title": "Osoitteeni",
+    "addNew": "Lisää uusi osoite",
+    "edit": "Muokkaa",
+    "delete": "Poista",
+    "deleteConfirm": "Haluatko varmasti poistaa tämän osoitteen?",
+    "fullName": "Koko nimi",
+    "phone": "Puhelin",
+    "addressLine1": "Osoiterivi 1",
+    "addressLine2": "Osoiterivi 2",
+    "city": "Kaupunki",
+    "postalCode": "Postinumero",
+    "country": "Maa",
+    "defaultShipping": "Oletustoimitusosoite",
+    "save": "Tallenna osoite",
+    "cancel": "Peruuta",
+    "saved": "Osoite tallennettu",
+    "deleted": "Osoite poistettu"
+  }
+}
