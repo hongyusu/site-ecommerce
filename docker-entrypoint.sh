@@ -47,7 +47,6 @@ su - postgres -c "psql -tc \"SELECT 1 FROM pg_database WHERE datname = 'ecommerc
 echo "Running database migrations..."
 cd /app/backend
 export DATABASE_URL="postgresql://postgres@localhost:5432/ecommerce_dev"
-export REDIS_URL="redis://localhost:6379/0"
 export JWT_SECRET="dev-secret-key-change-in-production"
 export ENVIRONMENT="development"
 export CORS_ORIGINS="http://localhost:3000,http://localhost"

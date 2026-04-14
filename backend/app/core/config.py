@@ -15,10 +15,7 @@ class Settings(BaseSettings):
     # Database
     DATABASE_URL: str = "postgresql://postgres:postgres@localhost:5432/ecommerce_dev"
 
-    # Redis
-    REDIS_URL: str = "redis://localhost:6379/0"
-
-    # JWT Authentication
+# JWT Authentication
     JWT_SECRET: str = "dev-secret-key-change-in-production"
     JWT_ALGORITHM: str = "HS256"
     JWT_ACCESS_TOKEN_EXPIRE_MINUTES: int = 30

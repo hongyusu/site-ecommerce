@@ -20,7 +20,6 @@ from app.models import (  # noqa: F401
     Product,
     ProductImage,
     ProductVariant,
-    Review,
     User,
     WishlistItem,
 )

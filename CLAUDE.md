@@ -2,13 +2,13 @@
 
 ## Project Summary
 
-E-Commerce Platform: single-vendor B2C e-commerce platform. Next.js 14 + FastAPI + PostgreSQL. Multi-language (FI/SV/EN), EUR only, Europe-wide. Runs in a single Docker container.
+E-Commerce Platform: single-vendor B2C e-commerce platform. Next.js 14 + FastAPI + PostgreSQL. Multi-language (FI/SV/EN/ZH), EUR only, Europe-wide. Runs in a single Docker container.
 
 ## Tech Stack
 
 - **Frontend**: Next.js 14.2 (App Router), React 18, TypeScript 5, Tailwind CSS 3.4, Zustand, next-intl
 - **Backend**: Python 3.12, FastAPI 0.109, SQLAlchemy 2.0, Alembic, Pydantic 2
-- **Database**: PostgreSQL 15, Redis 7
+- **Database**: PostgreSQL 15
 - **Auth**: JWT (python-jose), bcrypt (passlib). Token: `sub` must be string (not int).
 - **Email**: Resend SDK (`resend` package)
 - **Infra**: Single Docker container with supervisord managing 5 services (postgres, redis, backend, frontend, nginx)
@@ -44,7 +44,7 @@ poetry run python scripts/seed_data.py   # Seed demo data
 
 ```
 backend/app/
-  api/v1/endpoints/    # 11 endpoint files (one per resource)
+  api/v1/endpoints/    # 12 endpoint files (one per resource)
   api/dependencies.py  # Auth deps: get_current_user, get_current_admin, get_optional_user
   core/config.py       # Pydantic Settings (from .env.dev)
   core/database.py     # SQLAlchemy engine, SessionLocal, get_db
