@@ -221,6 +221,54 @@ docker run -d -p 80:80 \
 | FRONTEND_URL | http://localhost | Base URL for email links |
 | CORS_ORIGINS | http://localhost:3000 | Allowed CORS origins |
 
+## Credentials & Secrets
+
+**No secrets are committed to the repository.** The following credentials need to be configured:
+
+### Demo Accounts (seeded automatically)
+
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@example.com | admin123 |
+| Customer 1-5 | customer{1-5}@example.com | password123 |
+
+### API Keys & Secrets
+
+| Secret | Where to set | How to get |
+|--------|-------------|------------|
+| `RESEND_API_KEY` | `backend/.env.dev` or `supervisord.conf` | Sign up at [resend.com](https://resend.com), get API key from dashboard |
+| `JWT_SECRET` | `backend/.env.dev` or `supervisord.conf` | Any random string (min 32 chars). Default dev key is pre-set. |
+
+### Email Configuration
+
+- **Without Resend API key**: Emails print to backend console logs (verification links, password resets, order confirmations all visible in `docker logs`)
+- **With Resend API key**: Real emails sent via Resend. Free tier: 100 emails/day
+- **Sender address**: Uses `onboarding@resend.dev` (Resend's shared test domain). To send from your own domain, verify it in Resend dashboard.
+
+### Setting up credentials
+
+**For all-in-one Docker**, edit these files before building:
+```bash
+# Option 1: Edit .env.dev (loaded by backend)
+backend/.env.dev → RESEND_API_KEY=re_your_key_here
+
+# Option 2: Edit supervisord.conf (Docker environment)
+supervisord.conf → RESEND_API_KEY="re_your_key_here"
+```
+
+**For docker-compose**, set environment variables:
+```bash
+export RESEND_API_KEY=re_your_key_here
+docker-compose up
+```
+
+### Security Notes
+
+- The `JWT_SECRET` default value is for development only. Change it for any public deployment.
+- `backend/.env.dev` is committed with empty API keys. Never commit real secrets.
+- `.env.local`, `.env.production`, and `.claude/` are in `.gitignore`.
+- Demo user passwords are weak by design — change them for production.
+
 ## License
 
 MIT
