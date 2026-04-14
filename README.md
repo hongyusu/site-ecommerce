@@ -4,9 +4,25 @@ Single-vendor B2C e-commerce platform built with Next.js 14, FastAPI, and Postgr
 
 ## Screenshots
 
-| Homepage | Admin Inventory | Product Detail |
-|----------|----------------|----------------|
-| ![Homepage](1.png) | ![Admin Inventory](2.png) | ![Product Detail](3.png) |
+### Storefront
+| Homepage | Product Detail | Product Variants (Chinese) |
+|----------|----------------|---------------------------|
+| ![Homepage](1.png) | ![Product Detail](3.png) | ![Product Variants Chinese](10.png) |
+
+### Shopping Flow
+| Shopping Cart | Checkout | Order Detail |
+|--------------|----------|-------------|
+| ![Shopping Cart](8.png) | ![Checkout](7.png) | ![Order Detail](6.png) |
+
+### Reviews & i18n
+| Reviews (Chinese) |
+|-------------------|
+| ![Reviews Chinese](9.png) |
+
+### Admin Panel
+| Inventory Management | Order Management | User Management |
+|---------------------|-----------------|----------------|
+| ![Admin Inventory](2.png) | ![Admin Orders](4.png) | ![Admin Users](5.png) |
 
 ## Quick Start (All-in-One Docker)
 
