@@ -1,6 +1,12 @@
 # E-Commerce Platform
 
-Single-vendor B2C e-commerce platform built with Next.js 14, FastAPI, and PostgreSQL. Multi-language (Finnish, Swedish, English), EUR-only, Europe-wide.
+Single-vendor B2C e-commerce platform built with Next.js 14, FastAPI, and PostgreSQL. Multi-language (Finnish, Swedish, English, Chinese), EUR-only, Europe-wide.
+
+## Screenshots
+
+| Homepage | Admin Inventory | Product Detail |
+|----------|----------------|----------------|
+| ![Homepage](1.png) | ![Admin Inventory](2.png) | ![Product Detail](3.png) |
 
 ## Quick Start (All-in-One Docker)
 
