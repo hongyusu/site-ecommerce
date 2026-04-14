@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-Mall & More: single-vendor B2C e-commerce platform. Next.js 14 + FastAPI + PostgreSQL. Multi-language (FI/SV/EN), EUR only, Europe-wide. Runs in a single Docker container.
+E-Commerce Platform: single-vendor B2C e-commerce platform. Next.js 14 + FastAPI + PostgreSQL. Multi-language (FI/SV/EN), EUR only, Europe-wide. Runs in a single Docker container.
 
 ## Tech Stack
 

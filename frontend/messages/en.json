@@ -84,7 +84,7 @@
   },
   "home": {
     "hero": {
-      "title": "Welcome - Mall & More",
+      "title": "Welcome - E-Commerce Platform",
       "subtitle": "Quality Products - Fast Delivery - Best Prices",
       "browseProducts": "Browse Products",
       "viewCategories": "Categories"
@@ -220,7 +220,7 @@
     }
   },
   "footer": {
-    "brandName": "Mall & More",
+    "brandName": "E-Commerce Platform",
     "tagline": "Quality Products - Fast Delivery - Competitive Prices",
     "customerService": "Customer Service",
     "contact": "Contact",
@@ -235,7 +235,7 @@
     "terms": "Terms of Service",
     "privacy": "Privacy Policy",
     "cookies": "Cookies",
-    "copyright": "© {year} Mall & More. All rights reserved.",
+    "copyright": "© {year} E-Commerce Platform. All rights reserved.",
     "paymentMethods": "Payment Methods:"
   },
   "pagination": {
@@ -265,7 +265,7 @@
       },
       "address": {
         "title": "Address",
-        "company": "Mall & More Ltd",
+        "company": "E-Commerce Platform Ltd",
         "street": "Shopping Street 1",
         "city": "00100 Helsinki"
       },
@@ -352,7 +352,7 @@
       },
       "address": {
         "title": "Return Address",
-        "company": "Mall & More Ltd",
+        "company": "E-Commerce Platform Ltd",
         "department": "Returns",
         "poBox": "PO Box 100",
         "city": "00100 Helsinki"
@@ -487,7 +487,7 @@
       "subtitle": "Quality Products, Trusted Service Since 2010",
       "story": {
         "title": "Our Story",
-        "p1": "Mall & More was founded in 2010 with a simple mission: to make quality products accessible to everyone. Starting from a small warehouse in Helsinki, we have grown into one of Finland's leading online retailers.",
+        "p1": "E-Commerce Platform was founded in 2010 with a simple mission: to make quality products accessible to everyone. Starting from a small warehouse in Helsinki, we have grown into one of Finland's leading online retailers.",
         "p2": "Today, we serve hundreds of thousands of satisfied customers and partner with thousands of suppliers to bring you the best selection of products at competitive prices."
       },
       "values": {
@@ -526,10 +526,10 @@
       }
     },
     "careers": {
-      "title": "Careers at Mall & More",
+      "title": "Careers at E-Commerce Platform",
       "subtitle": "Join Our Growing Team",
       "why": {
-        "title": "Why Join Mall & More?",
+        "title": "Why Join E-Commerce Platform?",
         "description": "We're looking for talented individuals who are passionate about delivering excellent customer service and innovative solutions. If you're excited about working in e-commerce and want to be part of a dynamic team, we'd love to hear from you.",
         "benefits": "Competitive salary, flexible working hours, professional development opportunities, and a supportive work environment."
       },
@@ -616,7 +616,7 @@
       "lastUpdated": "Last updated: {date}",
       "agreement": {
         "title": "Agreement",
-        "description": "These Terms of Service constitute a binding agreement between you ('User' or 'Customer') and Mall & More Ltd. ('Company'). By accessing and using our website and services, you agree to be bound by these terms."
+        "description": "These Terms of Service constitute a binding agreement between you ('User' or 'Customer') and E-Commerce Platform Ltd. ('Company'). By accessing and using our website and services, you agree to be bound by these terms."
       },
       "usage": {
         "title": "Acceptable Use",
@@ -629,11 +629,11 @@
       },
       "intellectualProperty": {
         "title": "Intellectual Property Rights",
-        "description": "All content on this website, including text, graphics, logos, and images, is the property of Mall & More Ltd or its content suppliers and is protected by international copyright laws."
+        "description": "All content on this website, including text, graphics, logos, and images, is the property of E-Commerce Platform Ltd or its content suppliers and is protected by international copyright laws."
       },
       "limitation": {
         "title": "Limitation of Liability",
-        "description": "To the fullest extent permitted by law, Mall & More shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the website or services."
+        "description": "To the fullest extent permitted by law, E-Commerce Platform shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the website or services."
       },
       "disclaimer": {
         "title": "Disclaimer",
@@ -645,7 +645,7 @@
       "lastUpdated": "Last updated: {date}",
       "intro": {
         "title": "Your Privacy Matters",
-        "description": "Mall & More Ltd ('we', 'us', or 'our') operates the website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our website and the choices you have associated with that data."
+        "description": "E-Commerce Platform Ltd ('we', 'us', or 'our') operates the website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our website and the choices you have associated with that data."
       },
       "collection": {
         "title": "Information We Collect",
@@ -694,7 +694,7 @@
       "lastUpdated": "Last updated: {date}",
       "intro": {
         "title": "We Use Cookies",
-        "description": "Mall & More uses cookies and similar technologies to enhance your browsing experience, personalize content, and analyze website traffic."
+        "description": "E-Commerce Platform uses cookies and similar technologies to enhance your browsing experience, personalize content, and analyze website traffic."
       },
       "types": {
         "title": "Types of Cookies",

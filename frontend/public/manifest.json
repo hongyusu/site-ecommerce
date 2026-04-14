@@ -1,6 +1,6 @@
 {
-  "name": "Mall & More",
-  "short_name": "Mall&More",
+  "name": "E-Commerce Platform",
+  "short_name": "E-Commerce",
   "description": "Online store - Quality products, fast delivery",
   "start_url": "/en",
   "display": "standalone",

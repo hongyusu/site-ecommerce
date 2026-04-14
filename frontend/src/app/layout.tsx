@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Mall & More - Verkkokauppa',
-  description: 'Laadukkaat tuotteet - Nopea toimitus - Kilpailukykyiset hinnat',
+  title: 'E-Commerce Platform',
+  description: 'Quality products, fast delivery, competitive prices.',
 }
 
 export default function RootLayout({

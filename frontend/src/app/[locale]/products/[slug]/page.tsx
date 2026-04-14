@@ -120,7 +120,7 @@ export default function ProductDetailPage() {
         // Set primary image or first image
         const primaryImage = foundProduct.images.find((img: ProductImage) => img.is_primary)
         setSelectedImage(primaryImage?.image_url || foundProduct.images[0]?.image_url || '')
-        document.title = `${foundProduct.name} | Mall & More`
+        document.title = `${foundProduct.name}`
         const primaryImg = foundProduct.images.find((i: ProductImage) => i.is_primary)
         addToRecentlyViewed({
           id: foundProduct.id, name: foundProduct.name, slug: foundProduct.slug,

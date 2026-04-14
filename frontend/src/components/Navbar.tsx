@@ -76,7 +76,7 @@ export default function Navbar() {
         <div className="flex items-center gap-6 h-14">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center flex-shrink-0">
-            <span className="text-xl font-bold text-primary-600">Mall & More</span>
+            <span className="text-xl font-bold text-primary-600">{t('footer.brandName')}</span>
           </Link>
 
           {/* Search Bar */}

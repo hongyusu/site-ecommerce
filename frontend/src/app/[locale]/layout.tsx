@@ -13,15 +13,15 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'Mall & More - Online Store',
-    template: '%s | Mall & More',
+    default: 'E-Commerce Platform',
+    template: '%s | E-Commerce Platform',
   },
   description: 'Quality products, fast delivery, competitive prices. Shop electronics, home & garden, clothing, and more across Europe.',
   keywords: ['online store', 'e-commerce', 'electronics', 'shopping', 'Europe', 'Finland'],
   openGraph: {
     type: 'website',
-    siteName: 'Mall & More',
-    title: 'Mall & More - Online Store',
+    siteName: 'E-Commerce Platform',
+    title: 'E-Commerce Platform',
     description: 'Quality products, fast delivery, competitive prices.',
   },
 }

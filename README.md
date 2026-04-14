@@ -1,4 +1,4 @@
-# Mall & More — E-Commerce Platform
+# E-Commerce Platform
 
 Single-vendor B2C e-commerce platform built with Next.js 14, FastAPI, and PostgreSQL. Multi-language (Finnish, Swedish, English), EUR-only, Europe-wide.
 

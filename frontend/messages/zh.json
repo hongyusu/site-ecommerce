@@ -84,7 +84,7 @@
   },
   "home": {
     "hero": {
-      "title": "欢迎来到 Mall & More",
+      "title": "欢迎来到 电商平台",
       "subtitle": "优质商品 · 快速配送 · 最优价格",
       "browseProducts": "浏览商品",
       "viewCategories": "商品分类"
@@ -175,7 +175,7 @@
     }
   },
   "footer": {
-    "brandName": "Mall & More",
+    "brandName": "电商平台",
     "tagline": "优质商品 · 快速配送 · 有竞争力的价格",
     "customerService": "客户服务",
     "contact": "联系我们",
@@ -190,7 +190,7 @@
     "terms": "服务条款",
     "privacy": "隐私政策",
     "cookies": "Cookie政策",
-    "copyright": "© {year} Mall & More. 保留所有权利。",
+    "copyright": "© {year} 电商平台. 保留所有权利。",
     "paymentMethods": "支付方式："
   },
   "pagination": {
@@ -220,7 +220,7 @@
       },
       "address": {
         "title": "地址",
-        "company": "Mall & More有限公司",
+        "company": "电商平台有限公司",
         "street": "购物街1号",
         "city": "00100 赫尔辛基"
       },
@@ -307,7 +307,7 @@
       },
       "address": {
         "title": "退货地址",
-        "company": "Mall & More有限公司",
+        "company": "电商平台有限公司",
         "department": "退货部",
         "poBox": "邮政信箱100",
         "city": "00100 赫尔辛基"
@@ -442,7 +442,7 @@
       "subtitle": "优质商品，值得信赖的服务，始于2010年",
       "story": {
         "title": "我们的故事",
-        "p1": "Mall & More成立于2010年，使命简单：让优质商品人人可得。从赫尔辛基的一个小仓库起步，我们已成长为芬兰领先的在线零售商之一。",
+        "p1": "电商平台成立于2010年，使命简单：让优质商品人人可得。从赫尔辛基的一个小仓库起步，我们已成长为芬兰领先的在线零售商之一。",
         "p2": "如今，我们服务数十万满意客户，与数千家供应商合作，以有竞争力的价格为您带来最佳商品。"
       },
       "values": {
@@ -481,10 +481,10 @@
       }
     },
     "careers": {
-      "title": "加入Mall & More",
+      "title": "加入电商平台",
       "subtitle": "加入我们不断壮大的团队",
       "why": {
-        "title": "为什么加入Mall & More？",
+        "title": "为什么加入电商平台？",
         "description": "我们正在寻找热衷于提供优秀客户服务和创新解决方案的人才。如果您对电商充满热情，欢迎加入我们！",
         "benefits": "有竞争力的薪资、灵活的工作时间、职业发展机会和支持性的工作环境。"
       },
@@ -571,7 +571,7 @@
       "lastUpdated": "最后更新：{date}",
       "agreement": {
         "title": "协议",
-        "description": "本服务条款构成您（「用户」或「客户」）与Mall & More有限公司（「公司」）之间的约束性协议。访问和使用我们的网站和服务即表示您同意受这些条款的约束。"
+        "description": "本服务条款构成您（「用户」或「客户」）与电商平台有限公司（「公司」）之间的约束性协议。访问和使用我们的网站和服务即表示您同意受这些条款的约束。"
       },
       "usage": {
         "title": "合理使用",
@@ -584,11 +584,11 @@
       },
       "intellectualProperty": {
         "title": "知识产权",
-        "description": "本网站所有内容，包括文字、图形、标志和图片，均为Mall & More有限公司或其内容供应商的财产，受国际版权法保护。"
+        "description": "本网站所有内容，包括文字、图形、标志和图片，均为电商平台有限公司或其内容供应商的财产，受国际版权法保护。"
       },
       "limitation": {
         "title": "责任限制",
-        "description": "在法律允许的最大范围内，Mall & More不对因使用或无法使用网站或服务而产生的任何间接、偶发、特殊、后果性或惩罚性损害承担责任。"
+        "description": "在法律允许的最大范围内，电商平台不对因使用或无法使用网站或服务而产生的任何间接、偶发、特殊、后果性或惩罚性损害承担责任。"
       },
       "disclaimer": {
         "title": "免责声明",
@@ -600,7 +600,7 @@
       "lastUpdated": "最后更新：{date}",
       "intro": {
         "title": "您的隐私很重要",
-        "description": "Mall & More有限公司（「我们」）运营本网站。本页面告知您我们在您使用网站时收集、使用和披露个人数据的政策。"
+        "description": "电商平台有限公司（「我们」）运营本网站。本页面告知您我们在您使用网站时收集、使用和披露个人数据的政策。"
       },
       "collection": {
         "title": "我们收集的信息",
@@ -649,7 +649,7 @@
       "lastUpdated": "最后更新：{date}",
       "intro": {
         "title": "我们使用Cookie",
-        "description": "Mall & More使用Cookie和类似技术来增强您的浏览体验、个性化内容和分析网站流量。"
+        "description": "电商平台使用Cookie和类似技术来增强您的浏览体验、个性化内容和分析网站流量。"
       },
       "types": {
         "title": "Cookie类型",

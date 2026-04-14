@@ -84,7 +84,7 @@
   },
   "home": {
     "hero": {
-      "title": "Välkommen - Mall & More",
+      "title": "Välkommen - E-handelsplattform",
       "subtitle": "Kvalitetsprodukter - Snabb leverans - Bästa priser",
       "browseProducts": "Bläddra bland produkter",
       "viewCategories": "Kategorier"
@@ -175,7 +175,7 @@
     }
   },
   "footer": {
-    "brandName": "Mall & More",
+    "brandName": "E-handelsplattform",
     "tagline": "Kvalitetsprodukter - Snabb leverans - Konkurrenskraftiga priser",
     "customerService": "Kundservice",
     "contact": "Kontakt",
@@ -190,7 +190,7 @@
     "terms": "Användarvillkor",
     "privacy": "Integritet",
     "cookies": "Cookies",
-    "copyright": "© {year} Mall & More. Alla rättigheter förbehållna.",
+    "copyright": "© {year} E-handelsplattform. Alla rättigheter förbehållna.",
     "paymentMethods": "Betalningsmetoder:"
   },
   "pagination": {
@@ -220,7 +220,7 @@
       },
       "address": {
         "title": "Adress",
-        "company": "Mall & More Ltd",
+        "company": "E-handelsplattform Ltd",
         "street": "Handelsvägen 1",
         "city": "00100 Helsingfors"
       },
@@ -307,7 +307,7 @@
       },
       "address": {
         "title": "Returadress",
-        "company": "Mall & More Ltd",
+        "company": "E-handelsplattform Ltd",
         "department": "Returer",
         "poBox": "PB 100",
         "city": "00100 Helsingfors"
@@ -442,7 +442,7 @@
       "subtitle": "Kvalitetsprodukter, pålitlig service sedan 2010",
       "story": {
         "title": "Vår historia",
-        "p1": "Mall & More grundades 2010 med ett enkelt uppdrag: att göra kvalitetsprodukter tillgängliga för alla. Från ett litet lager i Helsingfors har vi växt till en av Finlands ledande webbutiker.",
+        "p1": "E-handelsplattform grundades 2010 med ett enkelt uppdrag: att göra kvalitetsprodukter tillgängliga för alla. Från ett litet lager i Helsingfors har vi växt till en av Finlands ledande webbutiker.",
         "p2": "I dag betjänar vi hundratusentals nöjda kunder och samarbetar med tusentals leverantörer för att erbjuda dig det bästa utbudet av produkter till konkurrenskraftiga priser."
       },
       "values": {
@@ -481,10 +481,10 @@
       }
     },
     "careers": {
-      "title": "Karriärer på Mall & More",
+      "title": "Karriärer på E-handelsplattform",
       "subtitle": "Gå med i vårt växande team",
       "why": {
-        "title": "Varför gå med i Mall & More?",
+        "title": "Varför gå med i E-handelsplattform?",
         "description": "Vi letar efter talangfulla individer som är passionerade om att leverera utmärkt kundservice och innovativa lösningar. Om du är spänning på att arbeta inom e-handel och vill vara del av ett dynamiskt team skulle vi älska att höra från dig.",
         "benefits": "Konkurrenskraftig lön, flexibla arbetstider, möjligheter till professionell utveckling och en stödjande arbetsmiljö."
       },
@@ -571,7 +571,7 @@
       "lastUpdated": "Senast uppdaterad: {date}",
       "agreement": {
         "title": "Avtal",
-        "description": "Dessa användarvillkor utgör ett bindande avtal mellan dig ('Användare' eller 'Kund') och Mall & More Ltd ('Företag'). Genom att få åtkomst till och använda vår webbplats och tjänster godtar du att vara bunden av dessa villkor."
+        "description": "Dessa användarvillkor utgör ett bindande avtal mellan dig ('Användare' eller 'Kund') och E-handelsplattform Ltd ('Företag'). Genom att få åtkomst till och använda vår webbplats och tjänster godtar du att vara bunden av dessa villkor."
       },
       "usage": {
         "title": "Acceptabel användning",
@@ -584,11 +584,11 @@
       },
       "intellectualProperty": {
         "title": "Immateriella rättigheter",
-        "description": "Allt innehål på denna webbplats, inklusive text, grafik, logotyper och bilder, är egendom av Mall & More Ltd eller dess innehållsleverantörer och är skyddat av internationell upphovsrättslag."
+        "description": "Allt innehål på denna webbplats, inklusive text, grafik, logotyper och bilder, är egendom av E-handelsplattform Ltd eller dess innehållsleverantörer och är skyddat av internationell upphovsrättslag."
       },
       "limitation": {
         "title": "Begränsning av ansvar",
-        "description": "Till den fullas omfattning som tillåts enligt lag kommer Mall & More inte att vara ansvarigt för några indirekta, tillfälliga, speciella, följde- eller straffskador som uppstår från din användning av eller oförmåga att använda webbplatsen eller tjänsterna."
+        "description": "Till den fullas omfattning som tillåts enligt lag kommer E-handelsplattform inte att vara ansvarigt för några indirekta, tillfälliga, speciella, följde- eller straffskador som uppstår från din användning av eller oförmåga att använda webbplatsen eller tjänsterna."
       },
       "disclaimer": {
         "title": "Ansvarsbegränsning",
@@ -600,7 +600,7 @@
       "lastUpdated": "Senast uppdaterad: {date}",
       "intro": {
         "title": "Din integritet är viktig för oss",
-        "description": "Mall & More Ltd ('vi', 'oss' eller 'vår') driver webbplatsen. Den här sidan informerar dig om vår policy angående insamling, användning och utlämnande av personlig data när du använder vår webbplats och de val du har i samband med dessa data."
+        "description": "E-handelsplattform Ltd ('vi', 'oss' eller 'vår') driver webbplatsen. Den här sidan informerar dig om vår policy angående insamling, användning och utlämnande av personlig data när du använder vår webbplats och de val du har i samband med dessa data."
       },
       "collection": {
         "title": "Information vi samlar in",
@@ -649,7 +649,7 @@
       "lastUpdated": "Senast uppdaterad: {date}",
       "intro": {
         "title": "Vi använder kakor",
-        "description": "Mall & More använder kakor och liknande teknologier för att förbättra din webbläsarupplevelse, personalisera innehål och analysera webbtrafik."
+        "description": "E-handelsplattform använder kakor och liknande teknologier för att förbättra din webbläsarupplevelse, personalisera innehål och analysera webbtrafik."
       },
       "types": {
         "title": "Typer av kakor",

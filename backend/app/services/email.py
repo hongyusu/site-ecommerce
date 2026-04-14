@@ -27,7 +27,7 @@ def _send_email(to: str, subject: str, html: str) -> bool:
 
         resend.api_key = settings.RESEND_API_KEY
         resend.Emails.send({
-            "from": f"Mall & More <{settings.EMAIL_FROM}>",
+            "from": f"E-Commerce Platform <{settings.EMAIL_FROM}>",
             "to": [to],
             "subject": subject,
             "html": html,
@@ -45,13 +45,13 @@ def send_verification_email(to: str, name: str, token: str) -> bool:
     html = f"""
     <h2>Verify your email</h2>
     <p>Hi {name},</p>
-    <p>Thanks for signing up at Mall & More! Please verify your email by clicking the link below:</p>
+    <p>Thanks for signing up at E-Commerce Platform! Please verify your email by clicking the link below:</p>
     <p><a href="{url}" style="display:inline-block;padding:12px 24px;background:#232f3e;color:#fff;text-decoration:none;border-radius:6px;">Verify Email</a></p>
     <p>Or copy this link: {url}</p>
     <p>This link expires in 24 hours.</p>
-    <p>— Mall & More</p>
+    <p>— E-Commerce Platform</p>
     """
-    return _send_email(to, "Verify your email - Mall & More", html)
+    return _send_email(to, "Verify your email - E-Commerce Platform", html)
 
 
 def send_password_reset_email(to: str, name: str, token: str) -> bool:
@@ -64,9 +64,9 @@ def send_password_reset_email(to: str, name: str, token: str) -> bool:
     <p><a href="{url}" style="display:inline-block;padding:12px 24px;background:#232f3e;color:#fff;text-decoration:none;border-radius:6px;">Reset Password</a></p>
     <p>Or copy this link: {url}</p>
     <p>This link expires in 1 hour. If you didn't request this, ignore this email.</p>
-    <p>— Mall & More</p>
+    <p>— E-Commerce Platform</p>
     """
-    return _send_email(to, "Reset your password - Mall & More", html)
+    return _send_email(to, "Reset your password - E-Commerce Platform", html)
 
 
 def send_order_confirmation_email(
@@ -79,7 +79,7 @@ def send_order_confirmation_email(
     <p>Your order <strong>#{order_number}</strong> has been confirmed.</p>
     <p>Total: <strong>€{total}</strong></p>
     <p>You can view your order details in your account.</p>
-    <p>Thank you for shopping at Mall & More!</p>
-    <p>— Mall & More</p>
+    <p>Thank you for shopping at E-Commerce Platform!</p>
+    <p>— E-Commerce Platform</p>
     """
     return _send_email(to, f"Order Confirmed - #{order_number}", html)

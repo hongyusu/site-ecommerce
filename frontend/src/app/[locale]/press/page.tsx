@@ -9,7 +9,7 @@ export default function PressPage() {
   const pressReleases = [
     {
       date: '15.10.2024',
-      title: 'Mall & More expanded revenue 45% in 2024',
+      title: 'E-Commerce Platform expanded revenue 45% in 2024',
       excerpt: 'Example press release content...',
     },
   ]
