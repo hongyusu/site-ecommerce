@@ -2,7 +2,7 @@
 set -e
 
 SERVER_IP="${1:-localhost}"
-export NEXT_PUBLIC_API_URL="http://${SERVER_IP}/api"
+export NEXT_PUBLIC_API_URL="http://${SERVER_IP}/api/v1"
 
 echo "Deploying ecommerce site..."
 echo "  Server IP: ${SERVER_IP}"
@@ -22,6 +22,10 @@ for service in backend frontend; do
         echo "  $service: waiting..."
     fi
 done
+
+echo ""
+echo "Running smoke tests..."
+bash "$(dirname "$0")/test-deploy.sh" "${SERVER_IP}"
 
 echo ""
 echo "Access the application:"

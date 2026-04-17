@@ -120,11 +120,23 @@ export default function LoginPage() {
             </div>
 
             <div className="pt-3 border-t border-gray-200">
-              <p className="text-xs text-gray-600 text-center leading-relaxed">
-                <strong>Demotilit:</strong><br />
-                Admin: admin@example.com / admin123<br />
-                Asiakas: customer1@example.com / password123
-              </p>
+              <p className="text-xs text-gray-500 text-center mb-2">Demo accounts — click to auto-fill:</p>
+              <div className="flex gap-2">
+                <button
+                  type="button"
+                  onClick={() => setFormData({ email: 'admin@example.com', password: 'admin123' })}
+                  className="flex-1 py-2 px-3 text-xs font-medium border border-gray-300 rounded hover:bg-gray-50 transition-colors text-gray-700"
+                >
+                  Admin
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setFormData({ email: 'customer1@example.com', password: 'password123' })}
+                  className="flex-1 py-2 px-3 text-xs font-medium border border-gray-300 rounded hover:bg-gray-50 transition-colors text-gray-700"
+                >
+                  Customer
+                </button>
+              </div>
             </div>
           </form>
         </div>

@@ -209,6 +209,15 @@ export const useStore = create<State>()(
 2. `supervisord.conf` → starts postgres, redis, backend (uvicorn), frontend (next start), nginx
 3. `nginx/nginx.allinone.conf` → routes `/` to frontend:3000, `/api` to backend:8000
 
+## Critical Config (DO NOT break these)
+
+- `NEXT_PUBLIC_API_URL` MUST end with `/api/v1` — the frontend api.ts uses it as the base URL directly
+- Backend seed script needs `PYTHONPATH=/app` to find the `app` module
+- Backend Dockerfile needs `--no-root` on poetry install (no README.md in container)
+- Frontend Dockerfile should use `npm install` not `npm ci` (lock file compatibility)
+- Don't expose postgres port 5432 in docker-compose (conflicts with local PostgreSQL)
+- After any deploy, run `bash test-deploy.sh` to verify
+
 ## Known Constraints
 
 - Cart requires login (no guest cart)

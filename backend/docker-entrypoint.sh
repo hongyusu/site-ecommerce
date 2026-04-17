@@ -30,13 +30,13 @@ with engine.connect() as conn:
 
 if [ "$TABLE_EXISTS" = "0" ] || [ -z "$TABLE_EXISTS" ]; then
     echo "Running database migrations..."
-    alembic upgrade head
+    PYTHONPATH=/app alembic upgrade head
 
     echo "Seeding demo data..."
-    python scripts/seed_data.py || echo "Warning: seed script failed (non-fatal)"
+    PYTHONPATH=/app python scripts/seed_data.py || echo "Warning: seed script failed (non-fatal)"
 else
     echo "Database already initialized ($TABLE_EXISTS users found), running migrations..."
-    alembic upgrade head
+    PYTHONPATH=/app alembic upgrade head
 fi
 
 echo "Starting application..."

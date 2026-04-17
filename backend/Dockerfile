@@ -17,7 +17,7 @@ FROM base AS dependencies
 COPY pyproject.toml poetry.lock* ./
 RUN pip install --no-cache-dir poetry \
     && poetry config virtualenvs.create false \
-    && poetry install --no-interaction --only main
+    && poetry install --no-interaction --only main --no-root
 
 # ---- Production ----
 FROM dependencies AS production
