@@ -2,6 +2,28 @@
 
 A single-vendor B2C e-commerce platform built with FastAPI and Next.js. Product catalog, cart, checkout, orders, admin panel. Multi-language (FI/SV/EN/ZH), EUR only.
 
+## Screenshots
+
+### Storefront
+| Homepage | Product Detail | Product Variants (Chinese) |
+|----------|----------------|---------------------------|
+| ![Homepage](screenshots/1.jpg) | ![Product Detail](screenshots/3.jpg) | ![Product Variants Chinese](screenshots/10.jpg) |
+
+### Shopping Flow
+| Shopping Cart | Checkout | Order Detail |
+|--------------|----------|-------------|
+| ![Shopping Cart](screenshots/8.jpg) | ![Checkout](screenshots/7.jpg) | ![Order Detail](screenshots/6.jpg) |
+
+### Reviews & i18n
+| Reviews (Chinese) |
+|-------------------|
+| ![Reviews Chinese](screenshots/9.jpg) |
+
+### Admin Panel
+| Inventory Management | Order Management | User Management |
+|---------------------|-----------------|----------------|
+| ![Admin Inventory](screenshots/2.jpg) | ![Admin Orders](screenshots/4.jpg) | ![Admin Users](screenshots/5.jpg) |
+
 ## Quick Start
 
 ```bash
