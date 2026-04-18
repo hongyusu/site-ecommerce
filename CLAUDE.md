@@ -218,6 +218,18 @@ export const useStore = create<State>()(
 - Don't expose postgres port 5432 in docker-compose (conflicts with local PostgreSQL)
 - After any deploy, run `bash test-deploy.sh` to verify
 
+## Deployment Safety (data durability)
+
+The all-in-one container bundles PostgreSQL with the app, so a container replacement without a mounted volume = total data loss. Guardrails:
+
+- **Always mount the pg volume** when running in production:
+  `docker run -d -p 80:80 -v ecommerce-pgdata:/var/lib/postgresql/15/main -v ecommerce-redis:/var/lib/redis ecommerce-allinone`
+- **deploy.sh must refuse to start** a container without the `-v ecommerce-pgdata:...` flag present
+- **Nightly `pg_dump` backups** pushed offsite (Hetzner Storage Box or S3), retained ≥14 days
+- **Test restore quarterly** — an untested backup is not a backup
+- **Run `test-deploy.sh` before cutover** — verifies migrations + seed state, catches breakage before traffic lands
+- **Never `docker rm` the prod container** without first verifying a recent `pg_dump` exists
+
 ## Known Constraints
 
 - Cart requires login (no guest cart)

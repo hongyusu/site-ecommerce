@@ -70,10 +70,11 @@ export default function CheckoutPage() {
 
   const selectedAddress = addresses.find((a) => a.id === selectedAddressId)
 
-  const taxAmount = subtotal * 0.24
-  const baseShipping = subtotal >= 100 ? 0 : 5.9
+  const numSubtotal = Number(subtotal) || 0
+  const taxAmount = numSubtotal * 0.24
+  const baseShipping = numSubtotal >= 100 ? 0 : 5.9
   const shippingCost = couponFreeShipping ? 0 : baseShipping
-  const total = subtotal + taxAmount + shippingCost - couponDiscount
+  const total = numSubtotal + taxAmount + shippingCost - couponDiscount
 
   const handleApplyCoupon = async () => {
     if (!couponCode.trim()) return
@@ -82,7 +83,7 @@ export default function CheckoutPage() {
     try {
       const { data } = await api.post("/coupons/validate", {
         code: couponCode.trim(),
-        subtotal,
+        subtotal: numSubtotal,
       })
       if (data.valid) {
         setCouponValid(true)
@@ -393,7 +394,7 @@ export default function CheckoutPage() {
             <div className="space-y-2 text-sm">
               <div className="flex justify-between">
                 <span className="text-gray-600">{t("cart.subtotal")}</span>
-                <span>&euro;{Number(subtotal).toFixed(2)}</span>
+                <span>&euro;{numSubtotal.toFixed(2)}</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-gray-600">{t("checkout.tax")} (24%)</span>
@@ -420,7 +421,7 @@ export default function CheckoutPage() {
                 <span>&euro;{total.toFixed(2)}</span>
               </div>
             </div>
-            {subtotal < 100 && (
+            {numSubtotal < 100 && (
               <p className="text-xs text-gray-500 mt-3">
                 {t("checkout.freeShippingNote")}
               </p>
