@@ -2,6 +2,13 @@
 
 A single-vendor B2C e-commerce platform built with FastAPI and Next.js. Product catalog, cart, checkout, orders, admin panel. Multi-language (FI/SV/EN/ZH), EUR only.
 
+**Live Demo:** http://178.104.206.21:8081
+
+| Role     | Email                     | Password    |
+|----------|---------------------------|-------------|
+| Admin    | admin@example.com         | admin123    |
+| Customer | customer1@example.com     | password123 |
+
 ## Screenshots
 
 ### Storefront
